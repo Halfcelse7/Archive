@@ -1,0 +1,542 @@
+﻿<strings>
+	<language name="Türkçe" base="Türkçe" variant="Normal" langcode="tr-TR" owner="@Halfcelse" />
+
+	<string key="GameStarted">
+		<value>Yeni bir oyun başladı! Katılmak için butonu kullanın.\n\nBot hâlâ Beta aşamasındadır.\nAna grup ile Geliştirici: @ThirtyOneGame\nGeliştirici/Kanal Hakkında: @ApeDev</value>
+	</string>
+	<string key="CantStartGameMaint">
+		<value>Üzgünüm ama şuan herhangi bir oyun başlatamazsın. Bot şuan bakımda. Lütfen daha sonra tekrar deneyin. Bilgi almak için @ApeDev kanalını kontrol edin.</value>
+	</string>
+	<string key="JoinButton">
+		<value>Katıl</value>
+	</string>
+	<string key="GameNotFound">
+		<value>Katılmaya çalıştığın oyun mevcut durumda değil veya şu anda katılamazsın.</value>
+	</string>
+	<string key="JoinGroupFirst">
+	<!-- {0} - Grup İsmi -->
+		<value>Lütfen bir oyuna katılmadan önce {0} grubuna katılın :)</value>
+	</string>
+	<string key="PlayerJoin">
+	<!-- {0} - Katılan Oyuncunun İsmi -->
+	<!-- {1} - Katılan Oyuncuların Sayısı -->
+	<!-- {2} - Minimum Oyuncu Sayısı Gereksinimi -->
+	<!-- {3} - Maksimum Oyuncu Sayısı Gereksinimi -->
+		<value>{0} oyuna katıldı! {1} kişi oyunda, {2} - {3} oyuncu gerekli.</value>
+	</string>
+	<string key="PlayerFlee">
+	<!-- {0} - Ayrılan Oyuncunun İsmi -->
+		<!-- {1} - Katılan Oyuncuların Sayısı -->
+		<!-- {2} - Minimum Oyuncu Sayısı Gereksinimi -->
+		<!-- {3} - Maksimum Oyuncu Sayısı Gereksinimi -->
+		<value>{0} oyundan çıktı! {1} kişi oyunda, {2} - {3} oyuncu gerekli.</value>
+	</string>
+	<string key="AlreadyInGame">
+	<!-- {0} - Grup İsmi -->
+		<value>Zaten {0} grubunda oyundasın!</value>
+	</string>
+	<string key="JoinTimeLeft">
+	<!-- {0} - Katılmak İçin Kalan Saniye -->
+		<value>{0} saniye kaldı.</value>
+	</string>
+	<string key="GameStarting">
+		<value>Oyun başlıyor.</value>
+	</string>
+	<string key="StartPlayerFound">
+	<!-- {0} - Oyunu İlk Başlatacak Olan Oyuncu İsmi -->
+		<value>{0} bu turun ilk oyuncusu. Şuan elindeki kartları saklayıp saklamayacağını seçecek.</value>
+	</string>
+	<string key="KeepOrExchangeStartDeck">
+		<value>Bu turun ilk oyuncusu sensin bu yüzden seçim yapma hakkın var:\nKartlarını saklamak mı istiyorsun, yoksa masaya mı koymak istiyorsun?</value>
+	</string>
+	<string key="StartPlayerKeptCards">
+		<!-- {0} - Oyunu İlk Başlatacak Olan Oyuncu İsmi -->
+		<value>{0} kartlarını elinde tutmayı seçti.</value>
+	</string>
+	<string key="StartPlayerExchangedCards">
+		<!-- {0} - Oyunu İlk Başlatacak Olan Oyuncu İsmi -->
+		<value>{0} kartlarını masaya koydu ve eldeki diğer 3 kartı aldı.</value>
+	</string>
+	<string key="OwnCards">
+		<value>Elindeki kartlar:</value>
+	</string>
+	<string key="TableCards">
+		<value>Masadaki kartlar:</value>
+	</string>
+	<string key="PlayerCards">
+	<!-- {0} - Oyuncu İsmi -->
+	<!-- {1} - Oyuncunun Kart Puanları -->
+		<value>{0}'in elindeki kartlar ({1} puan):</value>
+	</string>
+
+	<string key="Hearts">
+		<value>♥️</value>
+	</string>
+	<string key="Diamonds">
+		<value>♦️</value>
+	</string>
+	<string key="Spades">
+		<value>♠️</value>
+	</string>
+	<string key="Clubs">
+		<value>♣️</value>
+	</string>
+	<string key="Two">
+		<value>İki</value>
+	</string>
+	<string key="Three">
+		<value>Üç</value>
+	</string>
+	<string key="Four">
+		<value>Dört</value>
+	</string>
+	<string key="Five">
+		<value>Beş</value>
+	</string>
+	<string key="Six">
+		<value>Altı</value>
+	</string>
+	<string key="Seven">
+		<value>Yedi</value>
+	</string>
+	<string key="Eight">
+		<value>Sekiz</value>
+	</string>
+	<string key="Nine">
+		<value>Dokuz</value>
+	</string>
+	<string key="Ten">
+		<value>10</value>
+	</string>
+	<string key="Jack">
+		<value>Vale</value>
+	</string>
+	<string key="Queen">
+		<value>Kız</value>
+	</string>
+	<string key="King">
+		<value>Papaz</value>
+	</string>
+	<string key="Ace">
+		<value>As</value>
+	</string>
+	<string key="AskTurn">
+		<value>Ne yapmak istersin?</value>
+	</string>
+	<string key="ExchangeOne">
+		<value>Bir kartı değiştir</value>
+	</string>
+	<string key="ExchangeAll">
+		<value>Tüm kartları değiştir</value>
+	</string>
+	<string key="Skip">
+		<value>Geç</value>
+	</string>
+	<string key="Knock">
+		<value>Vur</value>
+	</string>
+	<string key="PlayerSkipped">
+	<!-- {0} - Oyuncu İsmi -->
+		<value>{0} pas geçti</value>
+	</string>
+	<string key="AllSkippedNewCards">
+		<value>Tüm oyuncular peş peşe pas geçti! Masa kartlarının yerini desteden 3 yeni kart aldı.</value>
+	</string>
+	<string key="KeepDeck">
+		<value>Desteyi elinde tut</value>
+	</string>
+	<string key="ExchangeDeck">
+		<value>Desteyi değiştir</value>
+	</string>
+	<string key="PlayerKnocked">
+	<!-- {0} - Oyuncu İsmi -->
+		<value>{0} masaya vurdu! Tur bir sonraki turdan önce sona erecek.</value>
+	</string>
+	<string key="AnotherPlayerKnocked">
+	<!-- {0} - Oyuncu İsmi -->
+		<value>{0} de masaya vurdu!</value>
+	</string>
+	<string key="ChoiceAccepted">
+		<value>Tamam.</value>
+	</string>
+	<string key="TimesUp">
+		<value>Süre Doldu!</value>
+	</string>
+	<string key="GameExpired">
+		<value>Bu oyun zaten sona erdi!</value>
+	</string>
+	<string key="PlayerExchangedOne">
+	<!-- {0} - Oyuncu İsmi -->
+	<!-- {1} - Masadan Alınan Kart -->
+	<!-- {2} - Oyuncunun Elindeki Kart -->
+		<value>{0} masadaki {1}'i elindeki {2} ile değiştirdi.</value>
+	</string>
+	<string key="PlayerExchangedAll">
+	<!-- {0} - Oyuncu İsmi -->
+		<value>{0} tüm kartlarını masa kartları ile değiştirdi.</value>
+	</string>
+	<string key="CurrentTurn">
+	<!-- {0} - Oyuncu İsmi -->
+		<value>Şuan {0}'in sırası.</value>
+	</string>
+	<string key="PlayerTimeout">
+	<!-- {0} - Oyuncu İsmi -->
+		<value>{0} zamanında seçemedi. Pas geçildi.</value>
+	</string>
+	<string key="KilledAfk">
+	<!-- {0} - AFK Oyuncu İsmi -->
+		<value>{0} zamanında üst üste 2 kez seçemedi. Oyundan atıldı.</value>
+	</string>
+	<string key="And">
+		<value>ve</value>
+	</string>
+	<string key="RoundEndKnocked">
+	<!-- {0} - Kaybeden Oyuncu(lar) İsmi -->
+	<!-- {1} - Kaybeden(ler)in Puanı -->
+		<value>{0} bu turu {1} puanla kaybetti ve bir can kaybetti!</value>
+	</string>
+	<string key="RoundEndThirtyOne">
+	<!-- {0} - Kaybeden Oyuncu(lar) İsmi -->
+	<!-- {1} - OtuzBir'i Olan Oyuncunun İsmi -->
+		<value>{0} bu turu kaybetti ve bir can kaybetti çünkü {1}'in elinde ThirtyOne vardı!</value>
+	</string>
+	<string key="PlayerList">
+		<value>Oyuncu listesi:</value>
+	</string>
+	<string key="Points">
+		<value>puanlar</value>
+	</string>
+	<string key="NewRoundStarting">
+		<value>Yeni raunt başlıyor</value>
+	</string>
+	<string key="GameEndedWinner">
+	<!-- {0} - Kazananların İsmi -->
+		<value>Oyun bitti! {0} kazandı!</value>
+	</string>
+	<string key="GameEndedFewPlayers">
+		<value>Yeterli oyuncu yok, oyun iptal edildi!</value>
+	</string>
+	<string key="ExchangeOneTakeWhich">
+		<value>Masadan hangi kartı almak istiyorsun?</value>
+	</string>
+	<string key="ExchangeOneGiveWhich">
+		<value>Hangi kartını masanın üzerine koymak istiyorsun?</value>
+	</string>
+	<string key="StartMeMessage">
+	<!-- {0} - Botu Başlatması Gereken Kullanıcının İsmi -->
+		<value>{0}, beni henüz PM'de başlatmadın. Lütfen beni başlatın, böylece sana mesaj gönderebilirim :)</value>
+	</string>
+	<string key="StartMeButton">
+		<value>Beni Başlat!</value>
+	</string>
+	<string key="YouJoined">
+	<!-- {0} - Oyuncunun Oyuna Katıldığı Grubun İsmi -->
+		<value>{0} grubundaki oyuna başarıyla katıldın.</value>
+	</string>
+	<string key="AddedToNextgameList">
+	<!-- {0} - Grup İsmi -->
+		<value>{0} grubu için bekleme listesine alındın.</value>
+	</string>
+	<string key="AlreadyOnNextgameList">
+	<!-- {0} - Grup İsmi -->
+		<value>{0} grubundaki bekleme listesine zaten alındın!</value>
+	</string>
+	<string key="NextgameCall">
+	<!-- {0} - Grup İsmi -->
+		<value>{0} grubunda yeni bir oyun başlıyor!</value>
+	</string>
+	<string key="LinkSet">
+	<!-- {0} - Yeni Grup Linki -->
+		<value>Grup linkin başarıyla ayarlandı: {0}</value>
+	</string>
+	<string key="LinkUnset">
+		<value>Grup linkin başarıyla sıfırlandı!</value>
+	</string>
+	<string key="InvalidLink">
+		<value>Bu link geçersiz!</value>
+	</string>
+	<string key="NotGlobalAdmin">
+		<value>Küresel yönetici değilsin!</value>
+	</string>
+	<string key="NotGroupAdmin">
+		<value>Bu komutu yalnızca grup yöneticileri kullanabilir!</value>
+	</string>
+	<string key="ConfigMenu">
+	<!-- {0} - Grup Başlığı -->
+		<value>Buradan {0} grubu için bot ayarlarını yönetebilirsin. - Ne yapmak istersin?</value>
+	</string>
+	<string key="ChangeJoinTime">
+		<value>Oyuna Katılma Süresi</value>
+	</string>
+	<string key="ChangeTurnTime">
+		<value>Tur Süresi</value>
+	</string>
+	<string key="ChangeLang">
+		<value>Dil</value>
+	</string>
+	<string key="ChangeStartLives">
+		<value>Oyuncu Can Sayısı</value>
+	</string>
+	<string key="Done">
+		<value>✅ TAMAMDIR ✅</value>
+	</string>
+	<string key="SetWhichJoinTime">
+	<!-- {0} - Katılma Süresi İçin Mevcut Ayar -->
+		<value>Oyuncular bir oyuna katılmak için ne kadar süreye (saniye cinsinden) sahip olsun?\nMevcut: {0} saniye</value>
+	</string>
+	<string key="SetWhichTurnTime">
+	<!-- {0} - Tur Süresi İçin Mevcut Ayar -->
+		<value>Oyuncuların oyun içinde tur döndürmeleri için ne kadar zamana (saniye cinsinden) sahip olsun?\nMevcut: {0} saniye.</value>
+	</string>
+	<string key="SetWhichLang">
+	<!-- {0} - Mevcut Dil Ayarı -->
+		<value>Hangi dilde oynanmasını tercih edersin?\nMevcut: {0}.</value>
+	</string>
+	<string key="SetWhichVariant">
+	<!-- {0} - Mevcut Varyant Ayarı -->
+		<value>Hangi varyantı tercih edersin?\nMevcut: {0}.</value>
+	</string>
+	<string key="SetWhichStartLives">
+	<!-- {0} - Oyuncu Can Sayısı İçin Ayar -->
+		<value>Oyuncular oyunun başında kaç cana sahip olsun?\nMevcut: {0}.</value>
+	</string>
+	<string key="GetWhichLang">
+		<value>Hangi dil dosyasını indirmek istiyorsun?</value>
+	</string>
+	<string key="GetWhichVariant">
+		<value>Hangi dil varyantı dosyasını indirmek istiyorsun?</value>
+	</string>
+
+	<string key="LastPlayerList">
+		<value>İşte son oyuncu listesi!</value>
+	</string>
+	<string key="KilledBlockedBot">
+	<!-- {0} - Çıkarılan Oyuncu İsmi -->
+		<value>{0} oyun sırasında botu engelledi. Oyundan çıkarıldı.</value>
+	</string>
+	<string key="Nobody">
+		<value>Hiç Kimse</value>
+	</string>
+	<string key="Dynamic">
+		<value>Dinamik</value>
+	</string>
+	<string key="NoStatsYet">
+	<!-- {0} - Kullanıcı İsmi ve ID'si Kontrol Edilen Kişi -->
+		<value>{0} hiç Thirty-One oyunu oynamadı, bu nedenle herhangi bir istatistiği yok!</value>
+	</string>
+	<string key="PlayerStats">
+	<!-- {0} - Kullanıcı İsmi ve ID'si Kontrol Edilen Kişi -->
+	<!-- {1} - Kilidi Açılan Başarı Sayısı -->
+	<!-- {2} - Oynanan Toplam Oyun Sayısı -->
+	<!-- {3} - Kazanılan Oyun Sayısı ve Yüzdesi -->
+	<!-- {4} - Kaybedilen Oyun Sayısı ve Yüzdesi -->
+	<!-- {5} - Thiry-One'ların Sayısı -->
+	<!-- {6} - Oyun Başına Ortalama ThirtyOne Sayısı -->
+		<value>{0} için İstatistikler: \n{1} Başarı Kilidi Açıldı \n{2} Oyun Oynandı \n{3} Oyun Kazandı \n{4} Oyun Kaybetti \n{5} kez Thirty-one elde etti \n{6} maç başına ortalama Thirty-One</value>
+	</string>
+	<string key="SentPM">
+		<value>Sana özel olarak mesaj gönderdim.</value>
+	</string>
+	
+	<string key="GlobalStats">
+		<!-- {0} - Botu Kullanan Toplam Grup Sayısı -->
+		<!-- {1} - Botu Kullanan Toplam Oyuncu Sayısı -->
+		<!-- {2} - Oynanan Toplam Oyun Sayısı -->
+		<!-- {3} - Kimsenin Kazanmadığı Toplam Oyun Sayısı -->
+		<!-- {4} - Oyun İçindeki Toplam Thirty-One Sayısı -->
+		<!-- {5} - Ortalama Oyun Başına Oyuncu Sayısı -->
+		<!-- {6} - Ortalama Oyuncu Başına Maç Başına Thirty-One Sayı -->
+		<value>Küresel Bot İstatistikleri:\n{0} Toplam Grup\n{1} Toplam Oyuncu\n{2} Oynanan Oyun\n{3} Kimsenin Kazanmadığı Oyun\n{4} Toplam ThirtyOne Sayısı\n{5} Ortalama Oyun Başına Oyuncu\n{6} Oyuncu Başına Maç Başına Ortalama Thirty-One Sayı</value>
+	</string>
+	
+	<string key="Settings">
+		<value>Ayarlar</value>
+	</string>
+	<string key="ChangeSettings">
+		<value>Bu grup için hangi ayarları değiştirmek istersin?\nSol taraftaki düğmelerle ayarlar hakkında daha fazla bilgi edinebilir ve sağ taraftaki düğmelerle bunları değiştirebilirsin!</value>
+	</string>
+	<string key="CardDeck">
+		<value>Kart Destesi</value>
+	</string>
+	<string key="CardDeckDesc" maxlength="200">
+		<value>Kart destesini değiştirme: Standart 32 kartlık (7-10, J, K, Q, A) ya da 52 kartlık (2-10, J, K, Q, A) bir deste kullanabilirsin</value>
+	</string>
+	<string key="GroupList">
+		<value>Grup Listesi</value>
+	</string>
+	<string key="GroupListDesc" maxlength="200">
+		<value>Bu grup /grouplist kısmında görünsün mü? Yalnızca grubunun kullanıcı adı varsa veya grup bağlantısı daha önce şu komutla ayarlandıysa görünecektir:\n\n/setlink@ThirtyOneBot [yourGroupLink]</value>
+	</string>
+	<string key="Back">
+		<value>Geri</value>
+	</string>
+	<string key="ShowWhichLang">
+		<value>Hangi dilde gruplar görmek istersin?</value>
+	</string>
+	<string key="ShowWhichVariant">
+		<value>Hangi varyantta gruplar görmek istersin?</value>
+	</string>
+	<string key="All">
+		<value>All</value>
+	</string>
+	<string key="ListedGroups">
+		<value>İşte istediğin dildeki grupların bir listesi:</value>
+	</string>
+	
+	<string key="EveryoneAddVP">
+		<value>AI Oyuncu Ekleme</value>
+	</string>
+	<string key="EveryoneAddVPDesc" maxlength="200">
+		<value>Grubun her üyesi AI oyuncuları ekleyebilsin mi (/addvp komutu)? Devre dışı bırakılırsa, bunu yalnızca grup yöneticileri yapabilir.</value>
+	</string>
+	<string key="GroupAdminOnly">
+		<value>Grup admini değilsin.</value>
+	</string>
+	<string key="TimeIncreased">
+	<!-- {0} - Arttırılan Saniye Sayısı -->
+	<!-- {1} - Katılmak İçin Kalan Zaman -->
+		<value>Katılma süresi {0} saniye uzatıldı.\n{1} süre kaldı.</value>
+	</string>
+	<string key="TimeDecreased">
+	<!-- {0} - Azaltılan Saniye Sayısı -->
+	<!-- {1} - Katılmak İçin Kalan Zaman -->
+		<value>Katılma süresi {0} saniye düşürüldü.\n{1} süre kaldı.</value>
+	</string>
+	<string key="EveryoneExtend">
+		<value>Süre Uzatma İzni</value>
+	</string>
+	<string key="EveryoneExtendDesc" maxlength="200">
+		<value>Grubun her üyesi katılma süresünü uzatabilsin mi (/extend komutu)? Devre dışı bırakılırsa, bunu yalnızca grup yöneticileri yapabilir.</value>
+	</string>
+	<string key="DynamicCardDeck">
+		<value>Dinamik Kart Destesi</value>
+	</string>
+	<string key="DynamicCardDeckDesc" maxlength="200">
+		<value>Bu özellik etkinleştirilirse, "Kart Destesi" ayarından bağımsız olarak, 5 veya daha fazla oyuncu varsa her zaman büyük 52 Kartlık Deste kullanılacaktır.</value>
+	</string>
+	
+	<string key="RankIncreased">
+	<!-- {0} - Yeni Sıralama -->
+		<value>Sıralaman yükseldi! Yeni sıralaman {0}! Tebrikler! 🥳</value>
+	</string>
+	<string key="RankDecreased">
+	<!-- {0} - Yeni Sıralama -->
+		<value>Maalesef sıralaman düştü. Yeni sıralaman {0}. Ama hâlâ eski sıralamana yakınsın, bu yüzden devam et!</value>
+	</string>
+	<string key="PlayerRank">
+	<!-- {0} - Mevcut Sıralama -->
+		<value>Sıralama: {0}</value>
+	</string>
+	<string key="RankProgress">
+		<value>Yeni sıralama süreci:</value>
+	</string>
+	
+	<string key="Exchange789">
+		<value>7-8-9 Değişikliği</value>
+	</string>
+	<string key="Exchange789Desc" maxlength="200">
+		<value>Bu oyun çeşidinde, masadaki kartlar Yedi, Sekiz ve Dokuz ise otomatik olarak desteden 3 kart ile değiştirilir.</value>
+	</string>
+	<string key="ExchangedTable789">
+		<value>Masada 7-8-9 var! Masa kartları desteden 3 yeni kartla değiştirildi.</value>
+	</string>
+	
+	<string key="DecimalPoint">
+	<!-- 30.5 or 30,5 - This determines what it is. -->
+		<value>.</value>
+	</string>
+	
+	<string key="RetractChoice">
+		<value>Geri Alma Seçimi</value>
+	</string>
+	<string key="RetractChoiceDesc" maxlength="200">
+		<value>Bu özellik etkinleştirilirse, oyuncular bir seçeneği seçtikten sonra 5 saniyeye kadar seçimlerini değiştirebilirler.</value>
+	</string>
+	
+	<string key="FullCardNames">
+		<value>Tam Kart İsimleri</value>
+	</string>
+	<string key="FullCardNamesDesc" maxlength="200">
+		<value>Bu etkinleştirilirse, kısa adlar (A, 7, 10, Q) yerine tam kart adları (As, Yedi, On, Kız) kullanılacaktır.</value>
+	</string>
+	
+	<string key="SuppressHints">
+		<value>İpuçlarını Bastırma</value>
+	</string>
+	<string key="SuppressHintsDesc" maxlength="200">
+		<value>Bu etkinleştirilirse, kendi sırandan önce vuran veya atlayan oyuncularla ilgili ipuçları oyuncuların PM'inde verilmeyecektir.</value>
+	</string>
+	
+	<string key="PlayerHasKnocked">
+	<!-- {0} - Senin Sırandan Önce Vuran Oyuncu İsmi -->
+		<value>🤜 {0} masaya vurdu!</value>
+	</string>
+	<string key="PlayersHaveSkipped">
+	<!-- {0} - Senin Sırandan Öne Pas Geçen Oyuncu Sayısı -->
+	<!-- {1} - Toplam Oyuncu Sayısı -->
+		<value>⏭ {0}/{1} oyuncu şimdiye kadar pas geçti!</value>
+	</string>
+	
+	<string key="ShortTwo">
+		<value>2</value>
+	</string>
+	<string key="ShortThree">
+		<value>3</value>
+	</string>
+	<string key="ShortFour">
+		<value>4</value>
+	</string>
+	<string key="ShortFive">
+		<value>5</value>
+	</string>
+	<string key="ShortSix">
+		<value>6</value>
+	</string>
+	<string key="ShortSeven">
+		<value>7</value>
+	</string>
+	<string key="ShortEight">
+		<value>8</value>
+	</string>
+	<string key="ShortNine">
+		<value>9</value>
+	</string>
+	<string key="ShortTen">
+		<value>10</value>
+	</string>
+	<string key="ShortJack">
+		<value>J</value>
+	</string>
+	<string key="ShortQueen">
+		<value>Q</value>
+	</string>
+	<string key="ShortKing">
+		<value>K</value>
+	</string>
+	<string key="ShortAce">
+		<value>A</value>
+	</string>
+	
+	<string key="ChangeBadge">
+	<!-- {0} - /Bağış -->
+		<value>Burada, oyun içinde hangi rozeti kullanmak istediğini seçebilirsin. Sunucumuzu çalışır durumda tutmamıza yardımcı olmak için bağış yaparak seçtiğin rozetlerin kilidini açabilirsin: {0}'a tıkla!</value>
+	</string>
+	<string key="BadgeChanged">
+		<value>Oyun içi rozetini başarıyla seçtin!</value>
+	</string>
+	<string key="BadgeChangeFailed">
+	<!-- {0} - Seçilen Rozet İçin Dahili Kod -->
+		<value>Oyun içi rozetini {0} olarak ayarlayamadım! Artık ona erişimin yok mu? Bunun bir hata olduğunu düşünüyorsan lütfen @ApeGroup grubuna danışı.</value>
+	</string>
+	<string key="DonationInfo">
+	<!-- {0} - Varsayılan Oyun İçi Rozet -->
+		<value>Selamlar! Bu ve diğer @ApeDev botlarını desteklemek istersen, sunucumuzu çalışır durumda tutmamıza yardımcı olmak için biraz bağış yaparsan seviniriz.\n\nEn az 5€ veya 5 USD bağış yaparsan, bu botta ödül olarak varsayılan {0} yerine özel bir oyun içi rozet olarak herhangi bir emoji seçebilirsin.\n\nSoruların veya rozetini talep etmek için @ApeGroup gruba gelin.</value>
+	</string>
+	<string key="DonationButton">
+		<value>Bağış!</value>
+	</string>
+
+	<string key="DisableHideMembers">
+		<value>Görünüşe göre bu grupta "Üyeleri Gizle" ayarı etkinleştirilmiş. Bu şekilde, yalnızca bu grubun üyelerinin oyunlara katılabileceğinden emin olamıyorum. Bu botu kullanmak için lütfen grup ayarlarından "Üyeleri Gizle" seçeneğini devre dışı bırakın.</value>
+	</string>
+</strings>

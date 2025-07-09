@@ -1,0 +1,1463 @@
+language:
+  base: Türkçe
+  variant: Amnesia Mode
+  name: Türkçe (Amnesia Mode)
+strings:
+  PlayerStartedChaosGame:
+    - "{0} hatırlamak için çılgınca şeyler yapıyor! Ne olduğunu anlamasan da sadece 'Hatırla' butonuna tıkla ve bu bilinçsiz çılgınlığa dahil ol!"
+    - "{0} eksik anılarını kazanmak için kaotik bir şeyler deniyor! Bu kaosta kaza kurşununa gitmek için hemen sen de Alzheimerlara dahil ol!"
+  AlreadyJoined:
+    - "Zaten oyundasın. Daha şimdiden mi kafan gitti!"
+  MinutesLeftToJoin:
+    - "Son {0} dakika kaldı. Bir şeyleri unutmadan önce hemen katıl."
+  SecondsLeftToJoin:
+    - "{0} saniye kaldı. Hatırla!!!"
+  NotEnoughPlayers:
+    - "Herkes sanırım katılmayı unutmuş. Yeterince alzheimer hastası yok. Oyun iptal edildi."
+  StartingGameWait:
+    - "Oyun başlıyor, lütfen ben rolleri dağıtana kadar ve veri tabanını güncelleyene kadar bekleyin. Köyde garip bir şeyler başlıyor! Nedense oyundaki hiç kimse kim ve ne olduğu hatırlamakta güçlük çekiyor... (oyuncular rollerini bilemeyecek ve kendileri keşfetmek zorundalar)"
+  ChangeNameToJoin:
+    - "{0}, sence de bir şeyleri değiştirmeyi unutmadın mı? İsmini değiştirerek tekrar katık aksi takdire oyuna dahil olamazsın."
+  PlayerLimitReached:
+    - "Üzgünüm, maksimum oyuncu limitine ulaşıldı. bir sonraki oyundan haberdar olmak için /nextgame komutunu kullanmayı unutma."
+  DeadFlee:
+    - "Farkında mısın bilmiyorum ama ölüsün. Sanırım hastalığın o kadar ileri derecede ki öldüğünü bile unutmuşsun. Ölüler kaçamaz!"
+  Flee:
+    - "{0} ardında bıraktığı dostlarını ve ailesini unutarak kaçıp gitti... Kaçmak anılarını geri getirmez!"
+  PlayerRoleWas:
+    - "{0} kimse tarafından hatırlanmadı ama o {1} idi."
+  CountPlayersRemain:
+    - "{0} Alzheimer kaldı."
+  NotPlaying:
+    - "Hemen unuttun mu? Oyunda olmadığın için bunu yapamazsın."
+  NoPlayerName:
+    - "Görünüşe göre her kimin hakkında konuşuyorsan onu hatırlamıyorum. Bu isimde bir Alzheimer bulamadım."
+  WolfVotedKill:
+    - "{0} bir şeyler yapmak için {1}'i seçti."
+  PlayerVotedLynch:
+    - "{0} bir şeyleri hatırlar gibi olurken {1}'i seçti."
+  IdleKill:
+    - "{0} 2 gece üst üste oylarını kullanmayı unuttu, gerçi oy kullanmayı hatırladığından bile şüpheliyim. Bunun sonucu olarak ölüm melekleri ne yapacağını unutmuşken, {0} nefes almayı bile unuttu! Ölüm meleklerini yormadan ve bilmeden de olsa kendi işini kendi görmüş oldu. {1}"
+  TraitorTurnWolf:
+    - "Hafızanı rolünü hatırlamak için çok zorlarken rolün değişti. Ama bunun da ne olduğunu hatırlamıyorsun! Neydin ne oldun gram fikrin yok."
+  ChoiceAccepted:
+    - "Seçim kabul edildi."
+  BeholderSeer:
+    - "Kim olduğunu hatırlamakta güçlük çekiyorsun. Kafanda sadece birilerinin isimleri kalmış: {0}"
+  ApprenticeNowSeer:
+    - "Hafızanı rolünü hatırlamak için çok zorlarken rolün değişti. Ama bunun da ne olduğunu hatırlamıyorsun! Neydin ne oldun gram fikrin yok."
+  BeholderNewSeer:
+    - "Oyunun başında Alzheimer olmana rağmen kafanda bir isim yankılanıyordu. 1 dakika? Hangi isimden bahsediyoruz? {1}'den mi? Neyden bahsediyorduk biz? Artık zihninde yeni bir isim canlanmaya başladı: {0}"
+  SeerSees:
+    - "Belli ki kendi benliğini tam olarak hatırlamıyorsun. En azından kafanda beliren {1} rolünü hatırlıyorsun."
+  AskLynch:
+    - "Kimi linç etmek istiyorsun?"
+  AskDetect:
+    - "Kafanda anılarına dair hiçbir şey yok. Birden kafanda zonklamalar başladı ve artık farkındasın ki bir şeyler yapman gerekiyor. Çabucak birini seç ve ne olduğunu keşfet!"
+  AskShoot:
+    - "Kafanda anılarına dair hiçbir şey yok. Birden kafanda zonklamalar başladı ve artık farkındasın ki bir şeyler yapman gerekiyor. Çabucak birini seç ve ne olduğunu keşfet!"
+  AskVisit:
+    - "Hatırlıyorsun!!! Bir şeyler yapman gerek ama ne? Bir isim seç ve olacağını gör. Belki bir nebze de olsa bir şeyler hatırlayabilirsin."
+  AskSee:
+    - "Hatırlıyorsun!!! Bir şeyler yapman gerek ama ne? Bir isim seç ve olacağını gör. Belki bir nebze de olsa bir şeyler hatırlayabilirsin."
+  AskGuard:
+    - "Hatırlıyorsun!!! Bir şeyler yapman gerek ama ne? Bir isim seç ve olacağını gör. Belki bir nebze de olsa bir şeyler hatırlayabilirsin."
+  AskEat:
+    - "Hatırlıyorsun!!! Bir şeyler yapman gerek ama ne? Bir isim seç ve olacağını gör. Belki bir nebze de olsa bir şeyler hatırlayabilirsin."
+  AskHunt:
+    - "Hatırlıyorsun!!! Bir şeyler yapman gerek ama ne? Bir isim seç ve olacağını gör. Belki bir nebze de olsa bir şeyler hatırlayabilirsin."
+  AskRoleModel:
+    - "Hatırlıyorsun!!! Bir şeyler yapman gerek ama ne? Bir isim seç ve olacağını gör. Belki bir nebze de olsa bir şeyler hatırlayabilirsin."
+  AskConvert:
+    - "Hatırlıyorsun!!! Bir şeyler yapman gerek ama ne? Bir isim seç ve olacağını gör. Belki bir nebze de olsa bir şeyler hatırlayabilirsin."
+  DiscussWith:
+    - "Kafanda bazı isimler var. Onlarla ortak hareket et. Ama ne için harekete geçeceksiniz ki?\nİsimler:\n{0}"
+  And:
+    - "ve"
+  RoleInfoCursed:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoDetective:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoDrunk:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoGuardianAngel:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoGunner:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoHarlot:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoTraitor:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoWolf:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoSeer:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoVillager:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoTanner:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoWildChild:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoBeholder:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoApprenticeSeer:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoCultist:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoCultistHunter:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  LynchTime:
+    - "Karanlık çökmek üzere. Köylüler bu gece hatırlamadıkları bir sebepten ötürü meydanda toplandı. Herkesin sonuçlarını hatırlamaksızın birilerini seçmek için {0} saniyesi var."
+  DayTime:
+    - "Gündüz vakti. Her birinizin rollerini keşfetmesi ve nedenini hatırlamadığınız şekilde birbirinizi suçlaması için {0} saniyesi var."
+  NightTime:
+    - "Gece karanlığı çöktü. Herkes yataklarına geri dönüp ertesi sabaha anılarını tekrardan geri kazanma umuduyla uyumaya gidiyor. Gece oyuncuları, aksiyonlarınızı gerçekleştirmek ve rollerinizi keşfetmek için {0} saniyesi var."
+  LynchKill:
+    - "Bütün Alzheimer köylüler ne yaptıklarını hatırlamadan isim seçtiler. Çoğunluk sonucu {0} köy tarafından asılarak unutuldu. {1}"
+  LynchTie:
+    - "Ne yaptıklarını bilmeyen Alzheimer köylüler ortak bir karara varamadılar. Bu hallerine bakacak olursak linçin bir karara varılamamasında onları suçlayamayız..."
+  NoLynchVotes:
+    - "Bu gece herkes oylarını kullanmayı unuttu! Bu gece linç yok."
+  DetectiveEaten:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapının kırıldığını ve evin duvarlarında uzun ve derin çizgiler buldular. {0}'in vücudu parçalanmış haldeydi ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Dedektif 🕵️ </b> olduğunu hatırladılar."
+  GuardianEaten:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapının kırıldığını ve evin duvarlarında uzun ve derin çizgiler buldular. {0}'in vücudu parçalanmış haldeydi ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Koruyucu Melek 👼 </b> olduğunu hatırladılar."
+  GunnerEaten:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapının kırıldığını ve evin duvarlarında uzun ve derin çizgiler buldular. {0}'in vücudu parçalanmış haldeydi ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Silahşör 🔫 </b> olduğunu hatırladılar."
+  SeerEaten:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapının kırıldığını ve evin duvarlarında uzun ve derin çizgiler buldular. {0}'in vücudu parçalanmış haldeydi ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Gözcü 👳 </b> olduğunu hatırladılar."
+  DrunkEaten:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapının kırıldığını ve evin duvarlarında uzun ve derin çizgiler buldular. {0}'in vücudu parçalanmış haldeydi ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Sarhoş 🍻 </b> olduğunu hatırladılar."
+  FoolEaten:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapının kırıldığını ve evin duvarlarında uzun ve derin çizgiler buldular. {0}'in vücudu parçalanmış haldeydi ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Çomar 🃏 </b> olduğunu hatırladılar."
+  DefaultEaten:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapının kırıldığını ve evin duvarlarında uzun ve derin çizgiler buldular. {0}'in vücudu parçalanmış haldeydi ancak kimse buna neyin sebep olduğunu anlamadı.\n{1}"
+  HunterKilledCultist:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapısının önünde cansız bedeni yatıyordu ve kafası gövdesinden kopmuş haldeydi. Ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b>Tarikatçı 👤</b> olduğunu hatırladılar."
+  NoAttack:
+    - "Alzheimer köylüler sabah meydanda toplandı. Eksik hiçbir şey yoktu. Anıları hariç..."
+  CursedBitten:
+    - "Hafızanı rolünü hatırlamak için çok zorlarken rolün değişti. Ama bunun da ne olduğunu hatırlamıyorsun! Neydin ne oldun gram fikrin yok."
+  CursedBittenToWolves:
+    - "Kim olduğunu hatırlamakta güçlük çekiyorsun. Kafanda sadece birilerinin isimleri kalmış: {0}"
+  WolvesEatYou:
+    - "Olamaz!!! Kurt adamlar seni yedi. NOMNOMNOMNOM"
+  WolvesEatDrunk:
+    - "Dün akşam {0}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  GuardWolf:
+    - "Dün akşam {0}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  GuardSaved:
+    - "Dün akşam {0}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  GuardNoAttack:
+    - "Dün akşam {0}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  GuardEmptyHouse:
+    - "Dün akşam {0}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  GuardSavedYou:
+    - "Dün akşam bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  HarlotEaten:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapının kırıldığını ve evin duvarlarında uzun ve derin çizgiler buldular. {0}'in vücudu parçalanmış haldeydi ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Yancı 💋 </b> olduğunu hatırladılar."
+  HarlotNotHome:
+    - "Dün akşam {0}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  HarlotFuckWolf:
+    - "Dün akşam {0}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  HarlotFuckedWolfPublic:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Cesedini başka bir evde buldular ve {0}'in vücudu parçalanmış haldeydi ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Yancı 💋 </b> olduğunu hatırladılar."
+  HarlotFuckedVictimPublic:
+    - "Köy halkı evin diğer odalarını da kontrol edince başka bir ceset daha buldular! Görünüşe göre gece vakti {1} yalnız değildi. Diğer odadaki ceset {0}'e aitti ve cesedini teşhis ettiklerinde onun <b> Yancı 💋 </b> olduğunu hatırladılar."
+  HarlotVisitNonWolf:
+    - "Dün gece {0}'in evinde bir şeyler mi oldu? Neler olup bittiği hakkında emin değilsin."
+  HarlotVisitYou:
+    - "Dün gece bir şeyler mi oldu? Neler olup bittiği hakkında emin değilsin."
+  DetectiveCaught:
+    - "Hâlâ kim veya ne olduğunu hatırlamıyorsun. Fark ettin mi bilmiyorum ama sence de {0} Alzheimer birine göre ortalıkta çok fazla dolanmıyor mu?"
+  DetectiveSnoop:
+    - "Belli ki kendi benliğini tam olarak hatırlamıyorsun. En azından oyundaki {1} rolünü hatırlıyorsun."
+  HarlotShot:
+    - "Köy meydanında aniden bir patlama sesi duyuldu. Silah sesiydi. {0} elinde bir tabancayla öylece duruyordu. Önünde ise {1}'in cansız bedei vardı. Anılarını geri kazanan Silahşör kaldığı yerden intikamlarına devam edecek! [{0} <b> Silahşör 🔫 </b> ve katlettiği Alzheimer ise {1} <b> Yancı 💋 </b>]"
+  DefaultShot:
+    - "Köy meydanında aniden bir patlama sesi duyuldu. Silah sesiydi. {0} elinde bir tabancayla öylece duruyordu. Önünde ise {1}'in cansız bedeni vardı. Anılarını geri kazanan Silahşör kaldığı yerden intikamlarına devam edecek! [{0} <b> Silahşör 🔫 </b> ve katlettiği Alzheimer ise {2}]"
+  WolfWins:
+    - "Kurt adam kazandı!"
+  WolvesWin:
+    - "Kurt adamlar kazandı!"
+  VillageWins:
+    - "Köylüler kazandı ve anılarını da geri kazandılar!"
+  TannerWins:
+    - "Ops... İblisi linç ettiniz. Sanırım bu beklenmedik bir durumdu."
+  CultistVotedConvert:
+    - "{0} bir şeyler yapmak için {1}'i seçti."
+  CultConvertCultHunter:
+    - "Dün akşam {1}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  CultHunterKilledCultVisit:
+    - "Dün akşam bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı.\n{0}"
+  CultConvertYou:
+    - "Hafızanı rolünü hatırlamak için çok zorlarken rolün değişti. Ama bunun da ne olduğunu hatırlamıyorsun! Neydin ne oldun gram fikrin yok."
+  CultTeam: [ ]
+  CultJoin:
+    - "Kim olduğunu hatırlamakta güçlük çekiyorsun. Kafanda sadece birilerinin isimleri kalmış:\n{0}"
+  CultVisitEmpty:
+    - "Dün akşam {1}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  CultWins:
+    - "Kim veya ne olduğunuz hakkında bir fikriniz yok. Ancak hayatta kalanlar sadece sizlersiniz ve hiç yoktan isimlerinizi anımsıyorsunuz. Tarikatçılar kazandı."
+  HunterVisitDead:
+    - "{0} zaten ölü!"
+  HunterFindCultist:
+    - "Dün akşam {0}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  HunterFailedToFind:
+    - "Dün akşam {0}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  WildChildToWolves:
+    - "Kim olduğunu hatırlamakta güçlük çekiyorsun. Kafanda sadece birilerinin isimleri kalmış: {0}"
+  WildChildTransform:
+    - "Hafızanı rolünü hatırlamak için çok zorlarken rolün değişti. Ama bunun da ne olduğunu hatırlamıyorsun! Neydin ne oldun gram fikrin yok. Kafanda sadece birilerinin isimleri kalmış: {0}"
+  Villager:
+    - "👱 Köylü"
+  Drunk:
+    - "🍻 Sarhoş"
+  Harlot:
+    - "💋 Yancı"
+  Seer:
+    - "👳 Gözcü"
+  Traitor:
+    - "🖕 Hain"
+  GuardianAngel:
+    - "👼 Koruyucu Melek"
+  Detective:
+    - "🕵 Dedektif"
+  Wolf:
+    - "🐺 Kurt Adam"
+  Cursed:
+    - "😾 Lanetli"
+  Gunner:
+    - "🔫 Silahşör"
+  Tanner:
+    - "👺 İblis"
+  Fool:
+    - "🃏 Çomar"
+  WildChild:
+    - "👶 Yabani Çocuk"
+  Beholder:
+    - "👁 Seyirci"
+  ApprenticeSeer:
+    - "🙇 Gözcü Çırağı"
+  Cultist:
+    - "👤 Tarikatçı"
+  CultistHunter:
+    - "💂 Tarikat Avcısı"
+  RanAway:
+    - "Unuttu"
+  Dead: [ ]
+  Alive: [ ]
+  PlayersAlive:
+    - "Hayatta kalan Alzheimer'lar"
+  Mason:
+    - "👷 Mason"
+  RoleInfoMason:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  MasonEaten:
+    - "Alzheimer köylüler sabah meydanda toplanır, ancak {0}'i aralarında görmezler. Sabah toplantısını unuttuğunu sandılar ancak durum hiç de öyle değildi. Köy halkı {0}'i taş yığının altında kanı etrafa yayılmış halde buldular. Masonlarınızda biri öldü."
+  MasonTeam:
+    - "Kim olduğunu hatırlamakta güçlük çekiyorsun. Kafanda sadece birilerinin isimleri kalmış: {0}"
+  CultTargetDead:
+    - "{0} zaten ölü!"
+  GuardBlockedWolf:
+    - "Dün akşam {0}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  CultUnableToConvert:
+    - "Dün akşam {1}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  NameExists:
+    - "@{1}, bu isimde biri zaten var {0}. Katılmak için ismini değiştir."
+  HarlotDiscoverCult:
+    - "Dün akşam {0}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  Was:
+    - "idi"
+  MasonConverted:
+    - "Oyunun başında Alzheimer olmana rağmen kafanda bir isim yankılanıyordu. 1 dakika? Hangi isimden bahsediyoruz? {1}'den mi? Neyden bahsediyorduk biz?"
+  FleeDisabled:
+    - "Oyundan çıkıp anılarından vazgeçemezsin! Hâlâ hatırlama şansın var. Oyun esnasında çıkışlara izin verilmez."
+  IsDead: [ ]
+  AlreadyInGame:
+    - "Yoksa unuttun mu? Zaten oyundasın! ({0})"
+  MaintBreak:
+    - "Üzgünüm şuan oyun başlatamazsın kısa bir bakım çalışması var...\n\nDaha fazla bilgi için @wolfbloodnews"
+  NoGame:
+    - "Unuttun mu yoksa? Şuan da başlatılmış bir oyun yok. Hatırlaman için sana yardımcı olayım. /startranked komutu ile dereceli modda bir oyun başlatabilirsin!"
+  GroupAdminOnly:
+    - "Unuttuysan eğer hatırlatayım; Bu komutu sadece admin kullanabilir dostum ve sen yönetici değilsin."
+  NoSeer:
+    - ""
+  TimesUp:
+    - "Bir şeyleri yapmayı mı unuttun? Süre doldu."
+  RoleInfoCupid:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoDoppelganger:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoHunter:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoSerialKiller:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  CupidChosen:
+    - "Kim olduğunu hatırlamakta güçlük çekiyorsun. Kafanda sadece birilerinin isimleri kalmış: {0}"
+    - "Kim olduğunu hatırlamakta güçlük çekiyorsun. Kafanda sadece birilerinin isimleri kalmış: {0}"
+  HunterLynchedChoice:
+    - "Alzeimer köylüler ne yaptıklarını bilmeseler de, bunun sonucu olarak sen asılacaksın. Ölüm korkusu adrenalin duygularını tavan yaptı. Yine de ne olduğunu hatırlamasan bile ölümünün son anlarında bir şeyler yapman gerektiğinin farkındasın. Hızlıca bir isim seç!"
+  HunterNoChoiceLynched:
+    - "{0} darağacında asılmaya hazırlanırken silahını bulamadı! Anlaşılan güçlü ve daima tetikte olan avcımız Alzheimer hastalığı yüzünden tabancasının yerine bile hatırlayamıyor. Kaderine razı olur ve son nefesini verir."
+  HunterSkipChoiceLynched:
+    - "{0} darağacında asılmaya hazırlanırken silahını bulamadı! Anlaşılan güçlü ve daima tetikte olan avcımız Alzheimer hastalığı yüzünden tabancasının yerine bile hatırlayamıyor. Kaderine razı olur ve son nefesini verir."
+  HunterKilledFinalLynched:
+    - "Halat {0}'in boynuna dolanır. Son anlarında belinde keşfettiği silahı bulur ve ecelin kapıya dayanmasıyla hatırlamaya başlar! {1}'e doğru hedef alır ve ateş eder. {2}"
+  HunterShotChoice:
+    - "Şuan kanlar içindesin. Neler olduğu hakkında hiçbir fikrin yok ancak nefes almakta zorlanıyorsun. Bir şeyler yapmak zorundasın ama ne ne??!! Hızlıca bir isim seç."
+  HunterNoChoiceShot:
+    - "{0}'i bir kan gölü içerisinde buldular. Son nefesinde bile ne yapması gerektiğini bir türlü hatırlayamamış, yada hatırlamanın heyecanı ile ne yapacağını şaşırış olmalı..."
+  HunterSkipChoiceShot:
+    - "{0}'i bir kan gölü içerisinde buldular. Son nefesinde bile ne yapması gerektiğini bir türlü hatırlayamamış, yada hatırlamanın heyecanı ile ne yapacağını şaşırış olmalı..."
+  HunterKilledFinalShot:
+    - "{0} kanlar içinde yerde sürünür. Son anlarında belinde keşfettiği silahı bulur ve ecelin kapıya dayanmasıyla hatırlamaya başlar! {1}'e doğru hedef alır ve ateş eder. {2}"
+  HunterShotWolfMulti:
+    - "Köy halkı evin diğer odalarını da kontrol edince başka bir ceset daha buldular! Görünüşe göre gece vakti avcı yalnız değildi. Diğer odadaki ceset {0}'e aitti."
+  HunterShotWolf:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Cesedini başka bir evde buldular ve vücudunda saçma izleri vardı. Belli ki hedefinde silahlı biri vardı ve başarısız oldu."
+  SerialKillerKilledWolf:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Cesedini başka bir evde buldular ve derin kesikler vardı. Belli ki hedeflerinde silahlı biri vardı ve başarısız oldular."
+  DefaultKilled:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapı kilidinde bir zorlama olduğu fark ettiler ancak onun dışında evdeki her eşya yerli yerinde ve düzenliydi. {0}'in vücudunda derin kesikler vardı ve organlarının bir kısmı eksikti ancak kimse buna neyin sebep olduğunu anlamadı. {1}."
+  GuardBlockedKiller:
+    - "Dün akşam {0}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  CultConvertHunter:
+    - "Dün akşam {1}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  CultConvertSerialKiller:
+    - "Dün akşam {1}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+    - "Dün akşam {1}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  GuardKiller:
+    - "Dün akşam {0}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  HarlotFuckKiller:
+    - "Dün akşam {0}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  HarlotFuckKillerPublic:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Cesedini başka bir evde buldular ve {0}'in vücudunda derin kesikler vardı ve organlarının bir kısmı eksikti ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b>Yancı 💋</b> olduğunu hatırladılar"
+  DGToMason:
+    - "Rolünü hatırlamıyorsun ancak anılarının bir köşesinde canlanan bu yeni isim belki de sana yardımcı olabilir: {0}"
+  DGTransformToMason:
+    - "Aniden rolün değişti. Halbuki öncesinde bile ne olduğunu hatırlamıyordun ama şimdi ise bu yeni rolünü keşfetmek zorundasın. {1}"
+  DGToCult:
+    - "Rolünü hatırlamıyorsun ancak anılarının bir köşesinde canlanan bu yeni isim belki de sana yardımcı olabilir: {0}"
+  DGTransformToCult:
+    - "Aniden rolün değişti. Halbuki öncesinde bile ne olduğunu hatırlamıyordun ama şimdi ise bu yeni rolünü keşfetmek zorundasın. {1}"
+  DGToWolf:
+    - "Rolünü hatırlamıyorsun ancak anılarının bir köşesinde canlanan bu yeni isim belki de sana yardımcı olabilir: {0}"
+  SerialKillerWins:
+    - "Sadece seri katil ayakta kaldı ve oyunu kazandı!"
+  AskKill:
+    - "Kafanda anılarına dair hiçbir şey yok. Birden kafanda zonklamalar başladı ve artık farkındasın ki bir şeyler yapman gerekiyor. Çabucak birini seç ve ne olduğunu keşfet!"
+  LoverDied:
+    - "{0}'in ölümü köy halkını her ne kadar çok derinden sarsmış olsa da, bunun en büyük travmasını {1} kendi yüreğinde taşıyordu... O kadar çok sarsıcıydı ki onsuz bir hayat {1} için büyük bir zulüm, işkenceydi. Hiç beklemeden bu acıya son vermek için Avcının yadigar tüfeği ile kendi kafasını havaya uçurur. Belki tekrardan {0} ile kavuşmak için farklı bir yoldu... {2}"
+  AskDoppelganger:
+    - "Kafanda anılarına dair hiçbir şey yok. Birden kafanda zonklamalar başladı ve artık farkındasın ki bir şeyler yapman gerekiyor. Çabucak birini seç ve ne olduğunu keşfet!"
+  AskCupid1:
+    - "Kafanda anılarına dair hiçbir şey yok. Birden kafanda zonklamalar başladı ve artık farkındasın ki bir şeyler yapman gerekiyor. Çabucak birini seç ve ne olduğunu keşfet!"
+  AskCupid2:
+    - "Kafanda anılarına dair hiçbir şey yok. Birden kafanda zonklamalar başladı ve artık farkındasın ki bir şeyler yapman gerekiyor. Çabucak birini seç ve ne olduğunu keşfet!"
+  Hunter:
+    - "🎯 Avcı"
+  Cupid:
+    - "🏹 Eros"
+  SerialKiller:
+    - "🔪 Seri Katil"
+  Doppelgänger: [ ]
+  NewWCRoleModel:
+    - "You have become the wild child. You role model is {0}."
+  LoversWin:
+    - "True love endures! The lovers have won!"
+  HunterKilledVisiter:
+    - "In the middle of the town square, everyone finds the body of {0}, multiple shots to the body. Looks like they tried to sneak up on the Hunter! Well, {1}."
+  CultAttempt:
+    - "A hooded figure tried to convert you to their cult, but your faith was too strong."
+  AlreadyOnWaitList:
+    - "You are already on the wait list for {0}."
+  AddedToWaitList:
+    - "You have been added to the wait list for {0}. I will PM you when the next game is starting."
+  NotifyNewGame:
+    - "A new game is starting in {0}."
+  SerialKillerWinsOverpower:
+    - "Morning comes, and the remaining two villagers walk out to the town square. {0} takes a look at {1}, gets a big grin on their face, pulls out a knife, and takes {1} out."
+  NoWinner:
+    - "Everyone in the village has died... there's nothing but bodies left. No one wins this round, except the vultures..."
+  SKHunterEnd:
+    - "As the sun rises, {0} and {1} walk out into the village. {0} pulls out their knife, and jumps at {1}. {1} pulls out a pistol and fires a shot into {0}'s face as {0} lands, plunging the knife deep into {1}. Both are dead, the village is empty, there is no winner..."
+  RoleModelChosen:
+    - "You failed to make a choice, so the moderator has chosen for you: {0}"
+  IdleCount:
+    - "Player {0} has been killed for not voting {1} times in the past 24 hours."
+  EndTime:
+    - "Game Length: {0}"
+  Day:
+    - "Day {0}"
+  NodeShutsDown:
+    - "An error has occured, and this node has shut down :/"
+  SentPrivate:
+    - "I have sent you a PM"
+  WhatToDo:
+    - "What would you like to do?"
+  JoinFromGroup:
+    - "You must join a game from within a group chat!"
+  StartFromGroup:
+    - "You must start a game from within a group chat!"
+  PingInfo:
+    - "Time to receive ping message: {0}\nMessages per second: {1}"
+  WhatLang:
+    - "Sakın! Bot dilini Alzheimer dışındaki herhangi bir dille değiştirme! Cidden bu çılgın dilin dışına çıkmak istiyorsan, hangi dili tercih etmek istiyorsu?\nMevcut: {0}"
+  WhatVariant:
+    - "Ciddi ciddi Alzheimer dilinin dışına mı çıkıyorsun? Yazıkkk!! Neyse hangi değişkeni istiyorsun?\nMevcut: {0}"
+  LangSet:
+    - "Dil {0} olarak ayarlandı"
+  GetLang:
+    - "Hangi dil dosyasını istiyorsun. Bilgin olsun, Alzheimer dili dışında herhangi bir metni sana göstermeyeceğim... (Sadece şaka ;d seç birini)"
+  NoNodes:
+    - "Şu an aktif olarak herhangi bir ağ yok. Kısa bir süre sonra tekrar dene lütfen."
+  GroupCommandOnly:
+    - "Unuttun mu? Bu komutu bir grupta iken kullanmalısın."
+  NotGlobalAdmin:
+    - "Küresel yönetici değilsin..."
+  NotPara:
+    - "Sen Kadir değilsin! Böyle bir şeyi nasıl unutabildin?"
+  Yes:
+    - "Evet"
+  No:
+    - "Hayır"
+  Allow:
+    - "İzin ver"
+  Disallow:
+    - "İzin verme"
+  Show:
+    - "Göster"
+  Hide:
+    - "Gösterme"
+  Cancel:
+    - "İptal"
+  AllowFleeQ:
+    - "Oyun başladıktan sonra çıkışa izin veriyor musun?\nNot: Oyuncular oyuna katılma aşamasında ayrılabilirler.\nMevcut: {0} çıkış"
+  AllowFleeA:
+    - "Oyun başladıktan sonra kaçışa {0}"
+  MaxPlayersQ:
+    - "En fazla kaç oyuncu olabilsin?\nMevcut: {0}"
+  MaxPlayersA:
+    - "En fazla oyuncu sayısı ayarlandı: {0}"
+  SetDayTimeQ:
+    - "Gündüz için temel süre (saniye) belirle. Bu yine de oyuncu sayısına göre ayarlanacak. \nOyunculara bağlı olarak, olabilecek en az süre 60 saniye.\nVarsayılan ayar: {0} \nMevcut: {1}"
+  SetDayTimeA:
+    - "Temel gündüz süresi {0} saniye olarak ayarlandı."
+  SetNightTimeQ:
+    - "Gece için süre (saniye) belirle.\nVarsayılan ayar: {0}\nMevcut: {1}"
+  SetNightTimeA:
+    - "Gece süresi {0} saniye olarak ayarlandı."
+  SetLynchTimeQ:
+    - "Linç oylaması için süre (saniye) belirle. \nVarsayılan ayar: {0}\nMevcut: {1}"
+  SetLynchTimeA:
+    - "Linç oylaması süresi {0} saniye olarak ayarlandı."
+  AllowTannerQ:
+    - "İblis rolü olmasına izin veriyor musun?\nMevcut: {0}"
+  AllowTannerA:
+    - "İblis rolüne: {0}"
+  AllowCultQ:
+    - "Tarikat rolü olmasına izin veriyor musun? \nMevcut: {0}"
+  AllowCultA:
+    - "Tarikatçı rolüne: {0}"
+  EnableSecretLynchQ:
+    - "Gizli linçe izin verilsin mi?\nMevcut: {0}"
+  EnableSecretLynchA:
+    - "Gizli lince: {0}"
+  ThankYou:
+    - "Teşekkürler, iyi günler dilerim :)"
+  WhatLangGroup:
+    - "Oynamak için hangi dilde bir grup aramak istiyorsun?"
+  HereIsList:
+    - "{0} için gruplar:"
+  StartMe:
+    - "Lütfen beni başlatmayı unutma, böylece sana özel mesaj atabilirim."
+  LatestList:
+    - "Şimdiden diğer oyuncuların olduğu listeyi unuttun mu? İşte son liste:"
+  UnableToGetList:
+    - "Ya ben oyuncu listesini en son ne zaman gönderdiğimi unuttum ya da sen, oyun başlayana kadar gönderemeyeceğimi unuttun!"
+  YouJoined:
+    - "{0}’daki oyuna başarıyla katıldın. Oyunda olduğunu sakın unutma!"
+  Ping2:
+    - "Ping mesajı gönderirken geçen süre: {0}"
+  RoleInfoMayor:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoPrince:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoClumsyGuy:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoSorcerer:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoBlacksmith:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoAlphaWolf:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  RoleInfoWolfCub:
+    - "Tuhaf... Kim olduğunu hatırlamakta güçlük çekiyorsun."
+  PrinceLynched:
+    - "Köy halkı sebepsiz yere, ellerinde meşaleler ile {0}'in üzerine yürüyordu ancak bir anda sesini yükseltti ve; \"Ya bi durun be!! Bakın.. elimde bir yüzük var ve bu, bu yüzük kraliyeti temsil ediyor. Hatırlıyorum, HATIRLIYORUM DURUN!! Ben sizin prensinizim beni linç edemezsiniz\" dedi ve köy halkı buna ikna olmuş gibiyde ve sessizce dağıldılar. Umarım onun prens olduğunu unutmazsınız..."
+  MayorReveal:
+    - "{0} köyün meydanı doğru bir adım öne çıktı. Kendisi dahil, herkes birbirine boş gözlerle sanki \"noluyo ya?\" der gibi bakınıyordu. Ancak {0} ceplerini yokladı ve ortaya koyacağı bir mühür buldu! Bu sayede oyları iki sayılacak. Umarım kendisi dahil kimse onun muhtar olduğunu unutmaz."
+  AskMayor:
+    - "Hatırlıyorsun!!! Bir şeyler yapman gerek ama ne? Peki bunun bugün olması mı lazım? Belki bir nebze de olsa bir şeyler hatırlayabilirsin."
+  Reveal:
+    - "Hatırla!"
+  SpreadDust:
+    - "Hatırlıyorsun!!! Bir şeyler yapman gerek ama ne? Peki bunun bugün olması mı lazım? Belki bir nebze de olsa bir şeyler hatırlayabilirsin."
+  BlacksmithSpreadSilver:
+    - "Köy halkı meydanda boş gözlerle birbirlerine bakarak dolanıyordu, ta ki {0}'in bir şeyler yaptığını fark edene kadar... Köyün etrafına toz benzeri bir şeyler döküyordu ve bunun ne işe yarayacağını sorduklarında; \"Dostum gram fikrim yok\" dedi...\n[Belki kurt adam saldırısını bir geceliğine engelleyecek bir şey]"
+  Mayor:
+    - "🎖 Muhtar"
+  Prince:
+    - "👑 Prens"
+  Sorcerer:
+    - "🔮 Falcı"
+  ClumsyGuy:
+    - "🤕 Beceriksiz"
+  Blacksmith:
+    - "⚒ Demirci"
+  AlphaWolf:
+    - "⚡️ Alfa Kurt"
+  WolfCub:
+    - "🐶 Yavru Kurt"
+  PlayerBittenWolves:
+    - "Dün akşam {0}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  PlayerBitten:
+    - "Dün akşam bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  BittenTurned:
+    - "Dün akşam bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  CultConvertWolf:
+    - "Dün akşam {1}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  HarlotFuckedKilledPublic:
+    - "Köy halkı evin diğer odalarını da kontrol edince başka bir ceset daha buldular! Görünüşe göre gece vakti {1} yalnız değildi. Diğer odadaki ceset {0}'e aitti ve cesedini teşhis ettiklerinde onun <b> Yancı 💋 </b> olduğunu hatırladılar."
+  ApprenticeSeerEaten:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapının kırıldığını ve evin duvarlarında uzun ve derin çizgiler buldular. {0}'in vücudu parçalanmış haldeydi ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Gözcü çırağı 🙇 </b> olduğunu hatırladılar."
+  BlacksmithKilled:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapı kilidinde bir zorlama olduğunu fark ettiler ancak onun dışında evdeki her eşya yerli yerinde ve düzenliydi. {0}'in vücudunda derin kesikler vardı ve organlarının bir kısmı eksikti ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Demirci ⚒ </b> olduğunu hatırladılar."
+  CultistKilled:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapı kilidinde bir zorlama olduğunu fark ettiler ancak onun dışında evdeki her eşya yerli yerinde ve düzenliydi. {0}'in vücudunda derin kesikler vardı ve organlarının bir kısmı eksikti ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Tarikatçı 👤 </b> olduğunu hatırladılar."
+  CupidKilled:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapı kilidinde bir zorlama olduğu fark ettiler ancak onun dışında evdeki her eşya yerli yerinde ve düzenliydi. {0}'in vücudunda derin kesikler vardı ve organlarının bir kısmı eksikti ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Eros 🏹 </b> olduğunu hatırladılar."
+  DrunkKilled:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapı kilidinde bir zorlama olduğu fark ettiler ancak onun dışında evdeki her eşya yerli yerinde ve düzenliydi. {0}'in vücudunda derin kesikler vardı ve organlarının bir kısmı eksikti ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Sarhoş 🍻 </b> olduğunu hatırladılar."
+  GuardianAngelKilled:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapı kilidinde bir zorlama olduğu fark ettiler ancak onun dışında evdeki her eşya yerli yerinde ve düzenliydi. {0}'in vücudunda derin kesikler vardı ve organlarının bir kısmı eksikti ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Koruyucu Melek 👼 </b> olduğunu hatırladılar."
+  GunnerKilled:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapı kilidinde bir zorlama olduğu fark ettiler ancak onun dışında evdeki her eşya yerli yerinde ve düzenliydi. {0}'in vücudunda derin kesikler vardı ve organlarının bir kısmı eksikti ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Silahşör 🔫 </b> olduğunu hatırladılar."
+  MayorKilled:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapı kilidinde bir zorlama olduğu fark ettiler ancak onun dışında evdeki her eşya yerli yerinde ve düzenliydi. {0}'in vücudunda derin kesikler vardı ve organlarının bir kısmı eksikti ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Muhtar 🎖 </b> olduğunu hatırladılar."
+  PrinceKilled:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapı kilidinde bir zorlama olduğu fark ettiler ancak onun dışında evdeki her eşya yerli yerinde ve düzenliydi. {0}'in vücudunda derin kesikler vardı ve organlarının bir kısmı eksikti ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Prens 👑</b> olduğunu hatırladılar."
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapı kilidinde bir zorlama olduğu fark ettiler ancak onun dışında evdeki her eşya yerli yerinde ve düzenliydi. {0}'in vücudunda derin kesikler vardı ve organlarının bir kısmı eksikti ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Prens 👑</b> olduğunu hatırladılar."
+  SeerKilled:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapı kilidinde bir zorlama olduğu fark ettiler ancak onun dışında evdeki her eşya yerli yerinde ve düzenliydi. {0}'in vücudunda derin kesikler vardı ve organlarının bir kısmı eksikti ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Gözcü 👳 </b> olduğunu hatırladılar."
+  SorcererEaten:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapının kırıldığını ve evin duvarlarında uzun ve derin çizgiler buldular. {0}'in vücudu parçalanmış haldeydi ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Falcı 🔮 </b> olduğunu hatırladılar."
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapının kırıldığını ve evin duvarlarında uzun ve derin çizgiler buldular. {0}'in vücudu parçalanmış haldeydi ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Falcı 🔮 </b> olduğunu hatırladılar."
+  WildChildEaten:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Evine baktıklarında kapının kırıldığını ve evin duvarlarında uzun ve derin çizgiler buldular. {0}'in vücudu parçalanmış haldeydi ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Yabani Çocuk 👶 </b> olduğunu hatırladılar."
+  SerialKillerKilledCH:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Cesedini başka bir evde buldular ve {0}'in vücudunda derin kesikler vardı ve organlarının bir kısmı eksikti ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b>Tarikat Avcısı 💂</b> olduğunu hatırladılar."
+  CultConvertWolfPublic:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Cesedini başka bir evde buldular ve {0}'in vücudu parçalanmış haldeydi ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b>Tarikatçı 👤</b> olduğunu hatırladılar."
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Cesedini başka bir evde buldular ve {0}'in vücudu parçalanmış haldeydi ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b>Tarikatçı 👤</b> olduğunu hatırladılar."
+  CultConvertKillerPublic:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Cesedini başka bir evde buldular ve {0}'in vücudunda derin kesikler vardı ve organlarının bir kısmı eksikti ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b>Tarikatçı 👤</b> olduğunu hatırladılar."
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Cesedini başka bir evde buldular ve {0}'in vücudunda derin kesikler vardı ve organlarının bir kısmı eksikti ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b>Tarikatçı 👤</b> olduğunu hatırladılar."
+  GAGuardedKiller:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Cesedini başka bir evde buldular ve {0}'in vücudunda derin kesikler vardı ve organlarının bir kısmı eksikti ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Koruyucu Melek 👼 </b> olduğunu hatırladılar."
+  GAGuardedWolf:
+    - "Sabah vakti olduğunda tüm köylüler meydanda toplandı ancak {0} aralarında yoktu. Cesedini başka bir evde buldular ve {0}'in vücudu parçalanmış haldeydi ancak kimse buna neyin sebep olduğunu anlamadı. Bedenini teşhis ettiklerinde onun <b> Koruyucu Melek 👼 </b> olduğunu hatırladılar."
+  HunterKillsWolfEnd:
+    - "Sadece 2 kişi kaldılar... {0} ormanda {1}'in izlerine rastlar. Elindeki tüfekle açıkça ne yapması gerektiğinin farkındaydı. Hedefinin dikkatini çekerek üzerine saldırmasını sağlar ve aniden tüfeğiyle onun ağzının ortasına ateşler. {1} sanırım rakibinin tüfeğe sahip olduğunu hatırlayamadı... Bütün Alzheimer köyün yükünü {0} taşıdı!"
+  WolfKillsHunterEnd:
+    - "Sadece 2 kişi kaldılar... {0} ormanda gezinen sinsi bir gölge fark eder. Tüfeğini akıllıca kullanması beklenirken doğruca karanlık ormana girdi. Zifiri karanlık {0} için görüş alanını kısıtlıyordu. Gölgelerden gelen seslere ve uğultulara doğru çaresizce ateş eder ancak hiçbir hedefi tutturamaz! {1} hiç beklenmediği anda {0}'e doğru atılır. Önce tüfeği ardından ise {0}'in bedenini parçalar!"
+  CHKillsCultistEnd:
+    - "Sadece 2 kişi kaldılar... {0} kilisede yalandan ayin yapmakla meşguldü. Belli ki ne ve kim olduğunu hatırlıyordu ancak anılarını geri kazanan yalnızca o değildi! {1} günah çıkarma kabininden çıkarak kendini gösterdi! {0}'in diz çökmesini dahi beklemeden kılıcını çeker, kellesine tek bir çizik atarak kılıcını aynı hızla yerine geri koyar... Tarikatçı Avcısı {1} tehlike teşkil eden son çomar cemaatçi üyesini ortadan kaldırdı."
+  SecondsAdded:
+    - "Katılma süresi {0} saniye uzatıldı!\n{1} saniye kaldı. Kalan süreyi unutma!"
+  SecondsRemoved:
+    - "Katılma süresi {0} saniye düşürüldü!\n{1} saniye kaldı. Kalan süreyi unutma!"
+  CantExtend:
+    - "Bu komutu yalnızca grup yöneticileri kullanabilir. Normal bir üye olduğunu unuttun mu?"
+  AllowExtendQ:
+    - "Oyuncuların katılım süresini uzatmasına izin verilsin mi?\nMevcut: Süreyi uzatmaya {0}\nNot: Yöneticiler her zaman değiştirebilir"
+  AllowExtendA:
+    - "Oyuncuların katılım süresini uzatmaya {0}"
+  WolvesEatDrunkBlockSecondKill:
+    - "Dün akşam {0}'in evinde bir şeyler mi oldu... Alzheimer hastalığın tekrar tetiklenmiş olmalı."
+  JoinButton:
+    - "Hatırla"
+  NotMember:
+    - "Bu oyuna katılamazsın çünkü {0} grubunun üyesi değilsin"
+  JoinByButton: [ ]
+  PlayerVoteCounts:
+    - "{0} oyuncu oy kullandı. Toplam: {1} kişi."
+  GroupNotFound:
+    - "Grup bulunamadı. Lütfen bu komutu grubunuzda çalıştırın ve beklememek için komuttan sonra yanına link, ID veya kullanıcı adı bırakın."
+  DeletedFromWaitList:
+    - "{0} için bekleme listesinden silindin."
+  HaveJoined:
+    - "{0} son 30 saniyede oyuna dahil oldu."
+  AllowCult:
+    - "Allow Cult"
+  AllowTanner:
+    - "Allow Tanner"
+  EnableSecretLynch:
+    - "Enable Secret Lynch"
+  RandomMode:
+    - "Enable Random Mode"
+  AllowExtend:
+    - "Allow Extending Timer"
+  AllowFlee:
+    - "Allow Fleeing"
+  ShowIDs:
+    - "Show IDs on joining"
+  ShowIDsQ:
+    - "Show IDs of players while they join the game?\nCurrent: {0}"
+  ShowIDsA:
+    - "{0} IDs"
+  All:
+    - "All"
+  RandomModeQ:
+    - "Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow Cult / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}"
+  RandomModeA:
+    - "Enabling of random mode set to: {0}"
+  AllowNSFW:
+    - "Allow NSFW Gif Packs"
+  AllowNSFWQ:
+    - "Allow players to have NSFW gif packs?\nCurrent: {0}"
+  AllowNSFWA:
+    - "{0} NSFW Gifs"
+  TannerEnd:
+    - "As the sun starts to shine on the village, {0} wakes to the sound of silence. Realising there was no one left, {0} walks and walks, until they stand alone in the middle of the village. Looking at the sight of the corpses strewn all across the village, {0} sighs. Their lifelong dream of being chosen to be lynched by the villagers is as dead as the villagers are. They reach out and touch the rope, that had taken many lives, tenderly, before slipping it around their neck and letting themselves hang freely, with a sad smile on their face."
+    - "{0} wakes up at dawn, alone. {0} sees how abject a failure they has been, not being able to get the village to satisfy their masochistic desires of being lynched to death. {0} grabs a rope and hangs himself, realising no one can accomplish their dream, since there is no one left."
+  SorcererEnd:
+    - "{0} opens their eyes, but instead of hearing the usual bustle of the village, they are met with silence. They stare at the dreary ceiling, letting reality slowly sink in. Everyone was dead. The wolves were dead. With a pang in their heart, {0} gets up, and packs their things, before walking to the edge of the village. A tear slips from their eye, as {0} recalls how close they and their wolves were to victory. Alas, it was time to start a new life, with a new pack. {0} slips into the darkness of the forest, away from the quiet village."
+    - "For all of {0}'s efforts, {0}'s wolf friends lay motionless and lifeless. Even if the wolves have been brought victory, there is no one to savour the success with, neither are there any living villagers to mock at. {0} peers into the crystal ball, and silently disappears, in a cloud of fog, in search of new wolves, new allies, and new treachery to commit new crimes against humanity."
+  Skip:
+    - "Skip"
+  NegSeerSees:
+    - "You see that {0} is NOT {1}!"
+  AskSandman:
+    - "Would you like to put all players to sleep tonight?"
+  SandmanSleepAll:
+    - "As the town talks, {0} goes back to their house and begins humming a soft melody. Tonight, everyone will sleep very deeply, and no one will be able to use their night actions"
+  SandmanNight:
+    - "As everyone heads home, they barely make it to their beds from exhaustion. They all fall asleep so strongly, they don't even remember going to sleep..."
+  AllowThiefQ:
+    - "Allow thief as a role option?\nCurrent: {0}"
+  AllowThiefA:
+    - "Thief as a role set to: {0}"
+  ThiefFullQ:
+    - "Thief can be used every night?\nCurrent: {0}"
+  ThiefFullA:
+    - "Thief will play every night: {0}"
+  AllowThief:
+    - "Allow Thief"
+  ThiefFull:
+    - "Thief Full Game"
+  RoleInfoWolfMan:
+    - "You are the WolfMan 👱🌚! Since you spend most of your time in the woods where there are real wolves, the Seer will get confused and think you are a werewolf! Oh no...."
+  WolfMan:
+    - "WolfMan 👱🌚"
+  RoleInfoLycan:
+    - "You are the lycan 🐺🌝! You are a wolf, but the seer will be confused and see you as a villager :)"
+  Lycan:
+    - "Lycan 🐺🌝"
+  RoleInfoOracle:
+    - "You are the Oracle 🌀. Each night you can choose to look at someone, but you will only be able to see what they are NOT. You will be given a role of someone else in the game that is still alive, so pay attention to what role is said, that means one is still alive :)"
+  Oracle:
+    - "Oracle 🌀"
+  RoleInfoSandman:
+    - "You are the sandman 💤. Once per game, you can use your magic to put everyone into such a deep sleep, they won't be able to use their role at night."
+  Sandman:
+    - "Sandman 💤"
+  RoleInfoPacifist:
+    - "You are the Pacifist ☮️. You can choose to convince everyone in your village not to lynch anyone. This can only be done once."
+  Pacifist:
+    - "Pacifist ☮️"
+  RoleInfoWiseElder:
+    - "You are the Wise Elder 📚. You can survive a werewolf attack once - the second time they can eat you up. If the Gunner or Hunter kill you with their abilities, they will lose their powers out of sorrow and will be converted to a normal villager."
+  WiseElder:
+    - "Wise Elder 📚"
+  RoleInfoThief:
+    - "You are the Thief 😈! You can steal a player's role on the first night and turn that player into a villager!"
+  RoleInfoThiefFull:
+    - "You are the Thief 😈! Since the [Full Thief] mode is turned on, you get 50% chance to steal a player's role every night, if successful, that player will become the new thief and continues with the theft!"
+  Thief:
+    - "Thief 😈"
+  AskPacifist:
+    - "Hit this button when you want to make your heartfelt speech and stop the village from lynching the next time!"
+  PacifistNoLynch:
+    - "The Pacifist ☮️, {0}, is making a heartfelt speech of friendship and trust in front of the village. Moved by their speech, there will be no lynching today!"
+  PacifistNoLynchNow:
+    - "Because of the Pacifist's ☮️ heartfelt speech, the lynch phase will be skipped today!"
+  WolvesTriedToEatWiseElder:
+    - "You tried to intrude {0}'s home but unfortunately they were the Wise Elder 📚! {0} successfully thwart the attack, luckily they did not recognize any of you."
+  WolvesAteWiseElderPM:
+    - "The wolves tried to eat you, but you didn't become the Wise Elder 📚 by being easy to kill by an intruder! You successfully thwart the attack, but unfortunately you didn't recognize any attackers."
+  HunterKilledWiseElder:
+    - "The Hunter 🎯, {0} shot the Wise Elder 📚, {1}. {0} sobbed mournfully, regretting their mistake, and swore off their Hunter abilities. They died a simple Villager 👱."
+  GunnerShotWiseElder:
+    - "The Gunner 🔫, {0} shot the Wise Elder 📚, {1}. {0} sobbed mournfully, regretting their mistake, and decided to scrap their gun, becoming a simple Villager👱 with a field to plow."
+  ThiefStealFailed:
+    - "You tried to steal the role from {0}, but unfortunately you failed..."
+  ThiefStealDead:
+    - "You tried to steal the role from {0}, but {0} is already dead..."
+  ThiefStoleRole:
+    - "You successfully stole {0}'s role!"
+  ThiefToMason:
+    - "{0} is no longer your teammate and {1} has now become a mason, just like you!"
+  ThiefToCult:
+    - "{0} is no longer your teammate and {1} has now become a cultist, just like you!"
+  ThiefToWolf:
+    - "{0} is no longer your teammate and {1} has now become a wolf, just like you!"
+  ThiefEnd:
+    - "As {0} wanders around the village, they found out that there are no more fun roles available for them to steal. They quickly left this poor village and search for another village to restart their illustrious career."
+  ThiefStealChosen:
+    - "Your theft target is now {0}."
+  AskThief:
+    - "Whose role do you want to steal from?"
+  SecretLynchResultEach:
+    - "{0} votes went to {1}: {2}"
+  SecretLynchResultFull:
+    - "The lynch result for today:\n{0}"
+  SecretLynchResultNumber:
+    - "{0} votes went to {1}."
+  SecretLynchShowVotes:
+    - "Secret: Votes Count"
+  SecretLynchShowVotesQ:
+    - "When secret lynch is turned on, show the vote count at the end of the lynch?\nCurrent: {0}"
+  SecretLynchShowVotesA:
+    - "When secret lynch is turned on, the vote count at the end of the lynch will: {0}"
+  SecretLynchShowVoters:
+    - "Secret: Voters"
+  SecretLynchShowVotersQ:
+    - "When secret lynch is turned on and the vote count is showing, show the voter's name for every voted player?\nCurrent: {0}"
+  SecretLynchShowVotersA:
+    - "When secret lynch is turned on and the vote count is showing, the voter's name for every voted player will: {0}"
+  CultistBitten:
+    - "Strange... The second you start discussing on whom to convert tonight, you realize that {0} isn't here! What has happened to them??"
+  Peace:
+    - "Peace!"
+  LynchPeaceTimeout:
+    - "Today's Lynching got skipped because of the Pacifist's heartfelt speech!"
+  ThiefStoleYourRoleThief:
+    - "Your role got stolen! You are now the new thief 😈 and can steal a role the next night!"
+  ThiefStoleYourRoleVillager:
+    - "Your role got stolen! You are now a villager 👱, plowing your fields all day."
+  SerialKillerKilledYou:
+    - "Knock knock, you've been visited by the resident serial killer!"
+    - "The Serial Killer ambushed you, tied you up, and then stabbed you in the heart!"
+  StealKiller:
+    - "You tried to steal a role... but your target was the serial killer! They saw you around their house, and not a minute later, you were stabbed..."
+  ThiefStoleKiller:
+    - "The Thief, {0}, tried to steal the role from the serial killer! This didn't work out so well: {0} got stabbed multiple times and now their liver is missing..."
+  BeholderSeerStolen:
+    - "The thief has stolen the seer's role! {0} is now the seer, and {1} does no longer have seeing abilities!"
+  Troublemaker:
+    - "Troublemaker 🤯"
+  RoleInfoTroublemaker:
+    - "You are the Troublemaker 🤯. As the teenager in the village, you're on the verge of puberty. One day, when you feel especially annoyed by everything, you can cause a huge furor and the village will lynch twice that day."
+  AskTroublemaker:
+    - "Do you want to cause trouble today?"
+  TroublemakerDoubleLynch:
+    - "{0}, the troublemaker 🤯 is making trouble! Run around and scream for satisfaction! You will lynch twice today!"
+  TroubleDoubleLynchNow:
+    - "Because of the troublemaker, you are going to lynch twice today! Hopefully they are going to be quiet tomorrow."
+  Chemist:
+    - "Chemist 👨‍🔬"
+  RoleInfoChemist:
+    - "You are the chemist 👨‍🔬! Your love for poisonous potions is huge and as a hobby you like to gamble with your life... Just a bit! You brew two potions, one of them being poisonous, the other neutral, looking exactly the same. Every other night, you can choose a player and force them to have a drink with you, maybe they are lucky and survive. However, if your host chooses the good drink, you'll get the poisonous one and die. Good luck!"
+  ChemistBrewing:
+    - "While the other villagers are going to bed, you're still up in your laboratory, mixing the potions for the next night. Make sure to not get caught by a wolf though!"
+  AskChemist:
+    - "Who would be a good host and gambling partner tonight?"
+  ChemistTargetDead:
+    - "You went to {0}'s house to have a drink with them, however, as you arrive there, they are already dead!"
+  ChemistVisitYouSK:
+    - "You got visited by the Chemist 👨‍🔬 {0}! They pulled out a knife to force you to drink, but instead of drinking, you pulled out your own knife. Apparently, your knife was stronger 🤷‍♂️"
+  ChemistSK:
+    - "You go to {0} to let them choose a potion, however, they were the serial killer and stabbed you! 🔪"
+  ChemistSKPublic:
+    - "The chemist 👨‍🔬 {0} tried to force the serial killer to a game tonight. Looks like the murderer didn't feel like playing games... {0} was found, stabbed, with two potions still in their bag!"
+  ChemistVisitYouSuccess:
+    - "You got visited by the chemist 👨‍🔬, they forced you to choose a potion and you chose the poisonous one. What a sad way to leave this world..."
+  ChemistSuccess:
+    - "You visited {0} and let them choose a potion! They chose the poisonous one and you returned home, satisfied of your gambling skills. This is no game of chances!"
+  ChemistSuccessPublic:
+    - "The chemist 👨‍🔬 has visited {0} tonight and they chose the poisonous potion! While the crazy chemist is still alive, {0} died. {1}"
+  ChemistVisitYouFail:
+    - "You got visited by the chemist 👨‍🔬 {0}, they forced you to choose a potion. After a moment of hesitation, you chose the good one! Lucky you!"
+  ChemistFail:
+    - "You visited {0} and let them choose a potion! They chose the good one however! In result, you drank the poisonous one and died. Maybe you should have done a better job..."
+  ChemistFailPublic:
+    - "The chemist 👨‍🔬 {0} was found dead! Apparently, {0} had bad luck and drank the poisonous potion during their nightly visit! Pray you never bought your medicines from them..."
+  ChemistTargetEmpty:
+    - "{0} wasn't home! You drag your suitcase back home, cursing your bad luck."
+  CultistsList:
+    - "The cult members are currently:"
+  SnowWolf:
+    - "Snow Wolf 🐺☃️"
+  RoleInfoSnowWolf:
+    - "You are the Snow Wolf 🐺☃️. Every night, instead of following your pack to hunt someone, you skulk around on your own to freeze someone out of your pack. A frozen person will be unable to use any night actions, if they have any. However, your victim will have some residue of your power the next night and can not be frozen a second time in a row."
+  AskFreeze:
+    - "Who do you want to freeze tonight?"
+  WolfPackList:
+    - "The wolf pack consists of :"
+  DGToSnowWolf:
+    - "The doppelganger {0} has now become the new snow wolf!"
+  ThiefToSnowWolf:
+    - "{0} is no longer your teammate and {1} has now become the new snow wolf!"
+  HarlotFrozen:
+    - "As you opened the door to leave your house, a gust of wind blew towards you, causing you to freeze in your tracks 🐺☃️. You stand frozen in the doorway, silently cursing this weird form of bondage. Ah well, thank goodness you're thawed now."
+  ChemistFrozen:
+    - "As you stirred in your sleep, preparing to wake up to get your potions, a strong gust of wind blew in from the windows, causing you to freeze 🐺☃️. From the corner of your eyes, you saw the bottles of your potions frosted over. Looks like they didn't escape the brunt of the freezing spell either. You mentally sighed, wishing the sun came up sooner... Good thing you're thawed now, though"
+  CultistFrozen:
+    - "As you donned your cloak and prepared to leave your house, a gust of wind blew in from the doorway, causing you to freeze 🐺☃️. Your fellow cultists dropped by soon after to bring you along to cult people, but they ended up laughing at your demise. Leaving you by the doorway, they promised that they'll make good work of tonight. Now that you're unfrozen, you leave the house, cringing in embarrassment."
+  CHFrozen:
+    - "As you grabbed your sword, a gust of wind blew in from the window, causing you to freeze, back still arched 🐺☃️. You mentally groaned, your limbs aching from being in this position until now..."
+  SeeingFrozen:
+    - "As you sat at your table, ready to use your psychic powers, a gust of wind blew in from the window, causing you to freeze 🐺☃️. While being bound usually isn't a problem, the freezing spell also gave you a serious case of brain freeze. You weren't worried though, knowing that the sun rising is one of the constants of this world and that you'll be thawed now."
+  GAFrozen:
+    - "As you willed your wings to appear, a gust of wind blew in from the windows, causing you to freeze 🐺☃️. You inwardly cringed as you suddenly imagine yourself as an ornament on a Christmas tree. Thankfully, this is now over since the sun has risen."
+  SKFrozen:
+    - "As you admired your liver collection one last time before leaving your house, a gust of wind blew in from the windows, frosting the glass jars... freezing you 🐺☃️. As you unfroze this morning, you gritted your teeth in annoyance at the Snow Wolf's spell, swearing to make them suffer as much as possible when you take their liver."
+  ThiefFrozen:
+    - "As you sulked around the village, you felt a strong gust of wind. You stood frozen in your tracks, literally unable to move 🐺☃️. Luckily, it was dark enough for you to not be recognised by anyone who passed you that night. When you were completely thawed by dawn, you scampered back to your home before anyone could see you."
+  DefaultFrozen:
+    - "While you were sleeping last night, you suddenly felt really cold. Waking up to check, you realised that you couldn't move at all! Looks like the Snow Wolf 🐺☃️ has cast a freezing spell on you. You go back to sleep, unconcerned, since it didn't affect you at all... apart from making you feel cold."
+  GuardBlockedSnowWolf:
+    - "You head to {0}'s house to freeze them, but you are met by a tall dark figure, armed to the teeth. The Guardian Angel fights you off, and you head back defeated."
+  SuccessfulFreeze:
+    - "You went to {0}'s house and froze them! Tonight, they won't be able to use their night actions (if any)."
+  SnowFrozeKiller:
+    - "The snow wolf {0} attempted to freeze someone last night, but accidentally visited the serial killer! The murderer noticed the unwanted visitor and stabbed {0}!"
+  SnowFrozeHunter:
+    - "The snow wolf {0} tried to freeze the hunter last night, but the hunter was able to catch them and take them down with their rifle!"
+  Lang:
+    - "Change Language"
+  MaxPlayer:
+    - "Set Max Players"
+  Done:
+    - "Done!"
+  Back:
+    - "Back"
+  RoleInfoGraveDigger:
+    - "You are the Grave Digger ☠️. It is your responsibility to get rid of the villages' dead bodies. You dig a grave for everyone who was killed since last night. However, you usually get too tired to finish the grave, so it remains uncovered. Some visitors might fall in and die... At least, the wolves can't eat you since you are out all night."
+  GraveDigger:
+    - "Grave Digger ☠️"
+  DigNoGraves:
+    - "The dead are buried, and the living are not. Everything is as it should be, and you can get a good night's sleep."
+  DigGraves:
+    - "Until late into the night, you dig the grave(s) for {0}. May their souls come to rest and their bodies lie in peace."
+  GraveDiggerFrozen:
+    - "As you left your house to bury those who passed away, a gust of wind blew in from the shadows, causing you to freeze. Unable to move, you waited for the sun to go up and thaw you. The dead will have to be restless for yet another night..."
+  GraveDiggerNotHome:
+    - "The pack heads to the house of {0}, just to find that they are not home. All you can see is a candle shining lonely on a grave..."
+  WolfFellWolves:
+    - "The pack heads to the house of {0}, but on the way there, {1} suddenly steps into a bear trap, falls into an open grave and gets impaled by a silver spear!"
+  WolfFell:
+    - "As you just want to close the grave you dug all night, you notice a foul stench, different from the usual smell of dead bodies... The wolf {0} fell into the grave and died!"
+  KillerStumbled:
+    - "You cut the liver out of {0}'s body, but on your way back you leaned too far over an unfinished grave and stumbled into it. Maybe you shouldn't have looked for the liver of the corpse... Now your leg really hurts."
+  KillerRandomKill:
+    - "On your way to the house of {0}, a sharp pain surges through your leg. You decide to just go to the nearest house, which appears to be {1}'s, murder them and hurry home."
+  GuardBlockedRandomKiller:
+    - "You arrive at {0}'s house, just to see the guardian angel standing in front of it! You try to fight, but you stand no chance. Tonight really was a bad night for you..."
+  HunterFellDigger:
+    - "After another tiring night, you walk back to your home with the sun already rising. Just before you arrive, you notice a sword lying on the ground next to an unfinished grave. Inside that grave you see the dead body of {0}. The cultist hunter should not have suspected you..."
+  CultFell:
+    - "You return from another tiring night, when suddenly you hear a scream from one of your unfinished graves! You hurry there, just to find {0} lying dead in an unfinished grave. What kind of cult tries to convert a grave digger, anyway?"
+  CultConvertGraveDigger:
+    - "On your way to {1}'s house, {0} suddenly decides that it would be a good idea to burn down the church as well. They lead you through the graveyard when suddenly a bear trap snaps around their ankle! All you can hear is their scream before they fall into a grave and you run for your lives."
+  ChemistFell:
+    - "As you are on your way to {0}'s house, you try to remember which of your drinks was the poisonous one again and stumble, falling into an open grave where a silver spear pierces right through your heart. Before you can make a sound, you are dead."
+  ChemistFellDigger:
+    - "'I could use a glass of wine now', you think to yourself. A strange feeling lets you look into a grave next to you, and as if fate heard your wish, a bottle of wine lies inside! Too bad there's also {0}'s dead body... Suddenly, you lost all your appetite."
+  HarlotFell:
+    - "You put your favorite lipstick on and head to {0}'s house to have a little fun. Sadly, you don't get far enough, as you step into a bear trap and fall into a grave on the way... Talk about occupational risk!"
+  HarlotFellDigger:
+    - "Apparently fate doesn't want you to have fun... Not only that you have to dig graves all night, you even find {0}, the harlot, dead in one of your unfinished graves. No fun for you tonight!"
+  HarlotVisitDigger:
+    - "You wander to {0}'s house, carefully avoiding all the open graves, but when you arrive, their house is empty... Apparently {0} is out all night digging graves again!"
+  GAFell:
+    - "Fortune surely didn't favor you tonight... You just wanted to watch over {0}, but instead you fell into an open grave after stepping into a bear trap and died! Why does the grave digger even have to secure some graves?"
+  GAFellDigger:
+    - "On your way home, you notice a feather lying around on the ground... You don't have to search long to find {0}, the guardian angel, lying dead inside one of your graves! Sometimes your 'security measurements' really go off on the wrong people."
+  ThiefFell:
+    - "You sneak through the graveyard on your way to steal {0}'s role, but you're too focused on not making a sound to notice the bear trap that clanks around your ankle! Not enought that your stealth is surely broken, you even fall into the grave next to you and break your neck!"
+  ThiefFellDigger:
+    - "Good thing you put security measurements around your graves... {0} tried to steal your role last night, but they were caught in your bear trap and fell into your grave! Maybe now the village will believe you that your traps are actually necessary."
+  ArsonistFellDigger:
+    - "From one of your graves you notice a smell of kerosene. Alarmed, you hurry there and find {0}, the arsonist, lying dead inside. At least your house stayed clean..."
+  DefaultFellPublic:
+    - "One of the graves on the graveyard contained too many people tonight... Apparently {0} tried to visit the grave digger, fell into a grave and died! {1}"
+  WolfFellPublic:
+    - "As the wolf pack goes out for a hunt, {0} smells potential prey and doesn't notice the bear trap that snaps around their ankle! Surprised, {0} falls over into the grave, where the tip of a silver spear meets their head. Luckily the grave digger keeps their graves secured! {1}"
+  SerialKillerSpottedYou:
+    - "You're just trying to do your job, when suddenly a crazy killer spots and stabs you! What a pity..."
+  SerialKillerSpotted:
+    - "As you walk past the graveyard with blood on your knife, you notice {0}, the grave digger. Following your instinct, you decide there will be two victims for you today..."
+  WolvesSpottedYou:
+    - "You're just trying to do your job, when suddenly a wolf jumps onto you from behind and kills you!"
+  WolvesSpotted:
+    - "The packs runs across the graveyard, as they suddenly notice {0}, the grave digger. Before they can react, one of you jumps on their back and kills them with one bite."
+  WolvesSpottedDiggerPublic:
+    - "{0} doesn't show up to the town meeting. Have they overslept again? As you go look for them, you find them lying dead on the graveyard, the shovel still in their hands. It seems they were surprised by wolves in the night..."
+  KillerSpottedDiggerPublic:
+    - "{0} is missing today... Did they maybe oversleep? You go look for them and find them dead on the graveyard, still holding their shovel. It seems they died from several stabbing wounds..."
+  RoleInfoArsonist:
+    - "You are the Arsonist 🔥. Each night, you may either douse a house with kerosene or spark, burning all previously doused houses. You can only win if you are the only survivor."
+  Arsonist:
+    - "Arsonist 🔥"
+  AskArsonist:
+    - "Do you want to douse another house or do you want to see all doused houses burn?"
+  ArsonistVisitKiller:
+    - "The arsonist {0} tried to douse the house of the serial killer... They didn't quite survive that."
+  Spark:
+    - "Spark"
+  Doused:
+    - "You successfully doused {0}'s house with kerosene!"
+  GuardSavedYouFromFire:
+    - "A fire broke out in your house, but luckily the guardian angel was there and extinguished it right away! They'd make a good firefighter, if they weren't so busy protecting people..."
+  GuardSavedFromFire:
+    - "You didn't quite expect a fire to break out when you went to visited {0}, but you saved them nevertheless! Ain't nobody gonna call you a bad protector..."
+  CleanDoused:
+    - "You didn't have to fight off any enemies at {0}'s house tonight, so you had time to look around a bit and noticed that the house was doused in kerosene! Since you got nothing better to do, you cleaned the house for them..."
+  Burning:
+    - "The village awakens to the smell of fire... It's burning! You try to extinguish the fire altogether, but you're too late to save the people whose houses were mysteriously doused in kerosene. Today you mourn the deaths of the following people:\n{0}"
+  ArsonistWins:
+    - "The only one left is the arsonist, standing on a pile of ashes. The arsonist wins..."
+  Burn:
+    - "You should have kept a fire extinguisher! Now your house burnt down and you died inside..."
+  Augur:
+    - "Augur 🦅"
+  AugurSees:
+    - "As you look into the skies, you see the birds form a very unusual pattern. That can only mean that {0} is not in the village."
+    - "The birds tell you that {0} is not part of the village right now."
+  RoleInfoAugur:
+    - "You are the Augur 🦅. You have the power to see things, but quite different from the seer or the oracle. You are the only one who can see roles that are not in the village, and not even see one of them twice!"
+  AugurSeesNothing:
+    - "There are absolutely no birds in the skies today. That probably means you have seen all the roles that are not in the village already..."
+  WolvesVisitBurn:
+    - "The pack storms into {0}'s house, when suddenly you notice smoke. You try to escape, but it's too late for {1}, who dies in the flames."
+  DefaultVisitBurn:
+    - "{0} should have stayed home tonight... They visited a burning house and died in the flames! {1}"
+  WolfVisitBurn:
+    - "The wolves tried to eat someone tonight again, but the arsonist was quicker! {0} couldn't escape from the burning house in time... {1}"
+  ChemistKillWiseElder:
+    - "Even though you still don't really know who the chemist is, you are sure that they will never again do such a miserable mistake. The chemist gave up on their job and became a normal villager!"
+  ArsonistWinsOverpower:
+    - "Only {0} and {1} are left... Suddenly {0} smiles, pulls out a match, lights it and throws it to the feet of {1}, who goes up in flames!"
+  HarlotVisitNotHome:
+    - "You went to have a little fun with {0}, but their house is empty!"
+  GroupIdleCount:
+    - "{0} of those kills were in this group."
+  NewDGRoleModel:
+    - "You have become the doppelgänger. You will take over {0}'s role after their death."
+  CHHuntedYou:
+    - "The Cultist Hunter 💂‍♀️ visited you while you were praying at your altar. You were greeted with a sword, now you are dead."
+  ExitAnonymousMode:
+    - "You can't use this bot as anonymous admin! Please exit the anonymous mode (or ask the admin who promoted you to do so) and try again!"
+  AskArsonistNoDoused:
+    - "Whose house would you like to douse?"
+  AlreadyDousedList:
+    - "\nYou have already doused the house of: {0}"
+  DoppelgangerEnd:
+    - "Ah! How miserable can the life of someone, who is not even able to do the only task they were made for, be? Is the ability of taking the appearance of others only a legend? We will never know!\n{0} is now alone in the village and there is nobody to mimic. The only thing they can do is copy the person in the mirror!"
+  PlayerStartedRankedGame:
+    - "{0} has started a ranked game! Will you be able to enter the top 10 in the ranking? Click /join to get in on the fun... :P"
+    - "Ranked new game has been started by {0}! Click /join to take your place in the top rankings."
+  GamesPlayedJoin:
+    - "{0} played {1} games with wolf blood and {2} games with other bots. Total number of games: {3}"
+  PinChatMessage:
+    - "Pin Game Messages"
+  PinChatMessageQ:
+    - "Automatically Pin Game Messages? Default: {0}"
+  PinChatMessageA:
+    - "Pinning Messages Set {0}."
+  PlayerStartedLoveGame:
+    - "{0} Has started a game filled with lovers! Are you ready to delve into romance? Click /join now and experience the joy of falling in love! :P"
+  RoleInfoBoss:
+    - "🎩 Boss: you have a strong dislike for cultists. Whenever you encounter a cult, you join their ranks by pretending to be one of them. However, the cultists are unaware of your true identity, and every night you discreetly report the number of cultists to the village team."
+  Boss:
+    - "Boss 🎩"
+  CultCount:
+    - "👤 You see that the Cult has {0} people."
+  RoleInfoClumsyWolf:
+    - "🐺🤕 You are the Clumsy Wolf. Though initially slow and clumsy, your partners have trained you, and you have managed to turn your clumsiness into a unique talent. Now, you can vote independently of other wolves and cause the lynchings of chosen players to go wrong."
+  ClumsyWolf:
+    - "Clumsy Wolf 🐺🤕"
+  AskClumsyWolf:
+    - "Who do you want to make clumsy?"
+  ClumsyWolfChoice:
+    - "{0} now he has become clumsy, and the percentage of his votes going wrong when lynching is 80%."
+  AllWolfDead:
+    - "There are no more living wolves left, and you lost your powers turning into a normal werewolf."
+  AchievementsUnlocked:
+    - "Achievement Unlocked"
+  Score:
+    - "Point"
+  GamesWon:
+    - "Games Won"
+  GamesLost:
+    - "Games Lost"
+  GamesSurvived:
+    - "Games Survived"
+  TotalGames:
+    - "Total Games"
+  TimesKilled:
+    - "Most Killed"
+  TimesKilledBy:
+    - "Most Killed By"
+  Afk:
+    - "AFK Deaths"
+  Help:
+    - "If you want to browse the roles in the game, you can use the /rolelist command.\nYou can select the language with the /setlang command.\nStart a game with the /startranked command immediately. Have fun."
+  ExtraDouse:
+    - "The werewolf dropped the village guard and you got the opportunity to repel someone else."
+  PlayerStartedCustomGame:
+    - "{0} launched a game of special roles! To join the fun, click /join now and you will be into it..."
+  NeedRolelist:
+    - "You need a valid role list to start the custom game. For more information, use /helpCustom."
+  NotEnoughBaddies:
+    - "The role list is invalid. One of the first 5 roles should be a bad one. For more information, use /helpCustom."
+  InvalidRolelist:
+    - "The role list is invalid. Please make sure you only use valid emojis separated by commas. For more information, use /helpCustom."
+  LynchDead:
+    - "The village chose to lynch you, and you died..."
+  IsThisAmnesia:
+    - "No"
+  TopGroup:
+    - "Top 10 groups with the highest score :"
+  GroupStats:
+    - "Top 10 in {0} :"
+  TopScore:
+    - "Top 10 players with the highest score :"
+  PlayerTime:
+    - "Playtime per week"
+  RoleInfoSkeleton:
+    - "💀 You are the Skeleton. After death, your spirit continues to live and you can block the abilities and voting of any player for 1 day. You can use your ability whenever you want, but it can only be done once."
+  Skeleton:
+    - "Skeleton 💀"
+  AskSkeleton:
+    - "Who do you want to block their abilities and voting?"
+  ChoiceSkeleton:
+    - "Successfully blocked the abilities and voting of {0} for 1 day."
+  OhNoSkeleton:
+    - "The Skeleton, whose spirit continues to live after death, has chosen to use its abilities on you. As a result, you will not be able to use your abilities and vote today.."
+  DeadSlient:
+    - "Because you are dead, you cannot send messages to the group until the end of the game. After the game ends, you will be able to write again. If you want to receive notifications for the next game, please click on the button below."
+  RolList:
+    - "Role List :"
+  RoleInfoDoctor:
+    - "🧑‍⚕️ Doctor: You try to revive the player who died the night before every morning. If you choose not to revive the player who died the night before, you cannot revive the same player the next day. You can only revive players who died during the previous night. Your chance of revival is 70%."
+  Doctor:
+    - "Doctor 🧑‍⚕️"
+  AskDoctor:
+    - "Who do you want to revive ?"
+  DoctorRevive:
+    - "Doctor {0}'s efforts resulted in the player {1}, who was killed last night, returning back to the game. Now it's time to take revenge."
+  DoctorYouRevive:
+    - "The Doctor revived you. Now go back to the village!"
+  DoctorFailed:
+    - "You tried hard to bring {0} back to life, but you were not successful."
+  LastSeen:
+    - "The last time {0} played in this group was on :\n-{1}"
+  NewRoles: [ ]
+  WonGame:
+    - "You won !"
+  LostGame:
+    - "You lost..."
+  GameScore:
+    - "Score : {0}"
+  RankBalance:
+    - "Rank Balance System : {0}"
+  TotalScore:
+    - "Total Score : {0}"
+  RoleInfoFogWolf:
+    - "🐺🌪 You are the Fog Wolf. When you vote for a player, you can secretly choose to vote for another player. No one will be able to see whom you are lynching because you are surrounded by smoke. You can trick the villagers with fake lynch votes. You will have 2 lynch options. The first time you vote, the village will see it, but it will not be counted. Your second vote will be counted."
+  FogWolf:
+    - "Fog Wolf 🐺🌪"
+  AskFakeLynch:
+    - "Who do you want to fake lynch? [This vote will not be counted.]"
+  RoleInfoPoseidon:
+    - "🧜 You are Poseidon. Once per game, you can kill a random player on the village team by unleashing a tsunami. When you decide to release a tsunami, the village will be notified that a tsunami is approaching, but your identity will not be revealed."
+  Poseidon:
+    - "Poseidon 🧜"
+  AskPoseidon:
+    - "Do you want to initiate a tsunami today?"
+  PoseidonRevealInfo:
+    - "Attention, villagers! An approaching tsunami will impact the entire village. Poseidon, the god of the sea who resides in the village, seems to have emerged from his majestic palace at the bottom of the sea. Get ready because when the tsunami arrives, it will randomly kill one person from the village."
+  PoseidonReveal:
+    - "Poseidon, the god of the seas, has emerged from his majestic palace, and a tsunami is sweeping through the village. The entire village attempts to escape the tsunami, but {0} fails. {0} drowns to death.\n{1}"
+  MyGroups:
+    - "The groups you are a part of in the top score list. Click to leave a group from the list."
+  GroupPoint:
+    - "Group Score : {0}"
+  CountPlayersAdded:
+    - "Total {0} players."
+  Players:
+    - "Players"
+  NotEnoughLovePlayers:
+    - "To play in Love mode you need to reach an even number (6,8,10,12...) This game has been canceled..."
+  RoleInfoPreacher:
+    - "🛐 You are the Preacher. During the night, you can pray for a player. If the player you prayed for is killed, you will learn the identity of their killer and their role. However, they will also discover your identity. This ability can be used starting from the second night."
+  Preacher:
+    - "Preacher 🛐"
+  AskPreacher:
+    - "Who do you want to pray for?"
+  PreacherDone:
+    - "The {0} you prayed for during the night has been killed. The role of {1}, who killed him, is {2}."
+  PreacherFailed:
+    - "The player {0}, you prayed for last night has survived and is alive. You didn't learn anyone's role today. You can continue praying the next night"
+  OhNoPreacher:
+    - "Oh no... You killed the player on whom the preacher prayed at night. Preacher {0} now knows who you are and your role!"
+  RoleInfoLawyer: [ ]
+  Lawyer: [ ]
+  AskLawyer2: [ ]
+  AskLawyer: [ ]
+  LawyerShoot: [ ]
+  LawyerReveal: [ ]
+  LawyerRevealPublic: [ ]
+  LawyerShotPublic: [ ]
+  LawyerInfo: [ ]
+  LawyerDead: [ ]
+  RoleInfoMiner:
+    - "⛏ You're a Miner\nEvery night you dig tunnels into villagers' houses. Thanks to the tunnels you dug, players with night actions will miss their goals and go to a different house without realizing it. You cannot dig into the same player's house two times in a row."
+  Miner:
+    - "Miner ⛏"
+  AskMiner:
+    - "Whose house do you want to dig a tunnel into?"
+  MinerDone:
+    - "You have successfully dug a tunnel in {0}'s house. Now players with night action will miss their targets and land in a different house!"
+  RoleInfoShadow:
+    - "🐺🌚 You are a Shadow Wolf\nYou can kill someone every night, just like ordinary werewolves. But you have a shadow ability that is different from all wolves. When you use your abilities, the shadows will hide the villagers' votes and they will not be able to see who they are lynching. When they try to lynch the ?, no one will know who they lynched. However, the shadows do not affect your wolf mates and you can see who you lynched."
+  Shadow:
+    - "Shadow Wolf 🐺🌚"
+  AskShadow:
+    - "Do you want to use your shadow ability today?"
+  ShadowPower:
+    - "You have successfully used your abilities. When the lynching phase begins, the villagers will not be able to see who they are lynching, and all lynchings will be seen as '?'. Werewolves will continue to see who they lynch.."
+  ChangeLanguage: [ ]
+  SetMaxPlayers: [ ]
+  SetDayTimer: [ ]
+  SetLynchTimer: [ ]
+  SetNightTimer: [ ]
+  EndDeleteMessage: [ ]
+  EndDeleteMessageQ: [ ]
+  EndDeleteMessageA: [ ]
+  PlayersGifPack:
+    - "Players with custom gif packs :"
+  GlobalBanPlayer:
+    - "{0} is not allowed to join in games due to a global ban.\nBan will expire after {1}.\nBan Reason: {2}"
+  GlobalBanSuccess:
+    - "{0} is globally banned from participating in games...\nThe ban will expire after {1}.\nBan reason : {2}!"
+  GroupBanPlayer:
+    - "You can't join the game because you have been banned by the admins of the {0} group.\nThe ban will expire after {1}.\nBan reason : {2}!"
+  GroupBanSuccess:
+    - "{0} has been banned from participating in games in this group.\nThe ban will expire after {1}.\nBan reason : {2}!"
+  GroupBanInvalidDate:
+    - "Invalid time format. Please use the format '5d', '10h', '30m'."
+  RemoveGroupBanPlayer:
+    - "{0} has been unbanned from participating in games in this group. He can join games now."
+  RemoveGroupBanPlayerFail:
+    - "{0} isn't banned at the first place!"
+  GroupBanPlayerFail:
+    - "{0} person is already banned !"
+  Days:
+    - "{0} day"
+  Minutes:
+    - "{0} minute"
+  Hours:
+    - "{0} hour"
+  Seconds:
+    - "{0} second"
+  EmojiChoice:
+    - "The emojis you acquire are shown below. Turn on/off an emoji appearing next to your name by toggling below:"
+  ErrorRepCommand:
+    - "Please reply to the starting message of the game and use the command. If any of the games has an error, you can use the command by responding to the #players list of that game."
+  EmptyReason:
+    - "Please write the description of the error, next to the command. Example usage: /rep error player cannot be lynched"
+  RepCommandSuccess:
+    - "Bug successfully sent to developers. After review, necessary corrections will be made. Thank you."
+  GameTagEnable:
+    - "You have successfully added yourself to the group’s tag list in {0}"
+  GameTagDisable:
+    - "You have successfully removed yourself from the group’s tag list at {0}"
+  Roles:
+    - "Your Role: {0}"
+  EarlyBonus:
+    - "Early die at Day {0}"
+  Win6Hour:
+    - "Congratulations! You have reached the 6-hour mark this week and are now eligible to earn the 🥉 emoji."
+  Win8Hour:
+    - "Congratulations! You have reached the 8-hour mark this week and are now eligible to earn the 🥈 emoji."
+  Win10Hour:
+    - "Congratulations! You have reached the 10-hour mark this week and are now eligible to earn the 🥇 emoji."
+  SetMuteMode:
+    - "Mute Settings"
+  SetMuteModeA:
+    - "Mute option set successfully."
+  SetMuteModeQ:
+    - "Do you want players to be muted after they die ?"
+  TagSuccess:
+    - "Your new name tag was set successfully. Tag: {0}"
+  NoPremium:
+    - "You are not a premium user. You can access premium privileges by donating a minimum of $5 with the /donate command..."
+  TagError:
+    - "The player tag you specified could not be set. Please set a tag 3 characters long and do not use special characters. Example usage: /settag PRO"
+  ErrorBotMessagePM:
+    - "Please specify the recipient of your message by using the appropriate command: Type /love to message your lover, or /team to communicate with your wolf pack or cult members."
+  YourSocialStats:
+    - "Social Stats of {0}"
+  MostPlayedWith:
+    - "🎮Most played with"
+  Killed:
+    - "🔪Kills"
+  KilledBy:
+    - "☠️Killed by"
+  DeathType:
+    - "📊Death type"
+  SetLinkSuccess:
+    - "Link Successfully Set: {0}"
+  SetLinkFailed:
+    - "You must use the /setlink command with the group invite link."
+  SetLinkError:
+    - "This is an invalid telegram invite link."
+  SetLinkDelete:
+    - "Your group's link has been successfully deleted."
+  RoleInfoConjurer:
+    - "🐺✨ You are the Conjurer Wolf [0% - 💀(🏠)].\nYou have a hidden talent. When you use this, the person with the fewest votes in the lynching vote will die, not the one with the most votes."
+  Conjurer:
+    - "Conjurer Wolf 🐺✨"
+  ConjurerChoice:
+    - "Villages Attention! The conjurer wolf used his skills today. Instead of the one with the most votes, THE PLAYER WITH THE LEAST VOTES WILL DIE!"
+  AskConjurer:
+    - "Do you want to use your ability today? "
+  Depressive:
+    - "Depressive 😨"
+  DepressiveLynch:
+    - "The villagers made a big mistake in the lynching today and chose to lynch the depressive. Depressive harmed {0} one of those who voted for him and caused his death. {1}."
+  DepressiveDead:
+    - "{0} chose to die by suicide today after last night's incident and died. {1}"
+  RoleInfoPawn:
+    - "♟ You are the Pawn [60%].\nEvery night you will choose someone to protect. If your target gets attacked, you will sacrifice yourself. If you protect the serial killer's target, both you and the person you are trying to protect will die"
+  Pawn:
+    - "Pawn ♟"
+  AskPawn:
+    - "Who do you want to sacrifice yourself for?"
+  PawnChoice:
+    - "You chose {0} to protect, but no one attacked him."
+  PawnDone:
+    - "You choose {0} to protect and your target was attacked. As an honorable soldier, you sacrificed yourself and died for your target's survival."
+  PawnFailWolf:
+    - "Last night you chose to attack {0} for a snack. But pawn {1} was there and he chose to sacrifice himself instead."
+  PawnFailedSk:
+    - "You chose {0} to protect, but your target got attacked by serial killer. So he killed both of you."
+  PawnSk:
+    - "You were heading towards {0}'s house to expand your collection, but {1}, a pawn was there. You killed them both and left."
+  PawnSkChat:
+    - "This night was expected to be quiet. The villagers found {0} and {1} in their bed with some of their organs missing. Looks like the killer wasn't content with hunting his victims in their nightmares! {1}, who tried to protect {0}, also became the victim of the serial killer.\n{2}"
+  NoClaims:
+    - "Non-Claims"
+  ClaimsNothing:
+    - "No player was found without a role."
+  MaxEmoji:
+    - "You have reached the maximum number of emoji activations. To activate it further, donate with the /donate command."
+  JerseyError:
+    - "The jersey number you specified could not be set. Please enter a number between 1-10. Example usage: /setjersey 10"
+  JerseySuccess:
+    - "Your new jersey number has been successfully set. Your jersey number: {0}"
+  ExtraBonus:
+    - "Extra bonuses: {0}"
+  PenaltyPoint:
+    - "Bad gameplay penalties: {0}"
+  PenaltyAFK:
+    - "Die as AFK: {0}"
+  BonusShotBadRoles:
+    - "Shot bad role: {0}"
+  BonusRevealBadRoles:
+    - "Reveal bad role: {0}"
+  BonusSaveGuard:
+    - "Saved lives: {0}"
+  BonusLynchBadRoles:
+    - "Lynched a bad role: {0}"
+  BonusEatMe:
+    - "Eaten by the Werewolf: {0}"
+  RoleInfoSoldier:
+    - "🪖 You are Soldier [40%].\nWhen the sun rises, you can choose to save someone from lynching votes. If the chosen player is targeted for lynching and dies, you have a one-time ability to redirect the lynching votes to another player of your choice. "
+  Soldier:
+    - "Soldier 🪖"
+  AskSoldier:
+    - "Who do you want to save during lynching time?"
+  AskSoldier2:
+    - "To whom do you want to direct the lynching vote?"
+  SoldierChoice:
+    - "You chose {0} to save, and if he dies during the lynching phase, you can choose someone else."
+  SoldierDone:
+    - "The villagers successfully cast their votes in the lynching phase. {0} was selected to be lynched. However, there was a soldier watching over {0} and he chose to direct the entire votes towards {1}. {2}"
+  LockGroup:
+    - "Only approved groups can use this command. To use this command, contact us at the @wolfbloodsupport group or send a request with the /addrequest command. After your group is reviewed and approved, you can use the command."
+  Rogue:
+    - "Rogue Wolf 🐺🎴"
+  RoleInfoRogue:
+    - "🐺🎴 You are the Rogue Wolf, known for your cunning and ability to swap the identities of two players in game. During the first night, you have the opportunity to select one player from your wolf pack and one from the villagers. Then, their identities will be swapped and If they die in any manner, their roles will appear as exchanged."
+  AskRogue1:
+    - "Which teammate's identity do you want to swap ?"
+  AskRogue2:
+    - "With whose identity do you want to swap your teammate ?"
+  ReverseRogue:
+    - "You swapped the identities of {0} and {1} successfully. Now when {0} dies, it will appear as {2} and when {1} dies, it will appear as {3}."
+  RoleInfoDepressive:
+    - "Depressed 😨 [100%].\nDue to his mental illness, he is not aware of his consciousness. He will think that he is a lowly villager. If any player(s) try to vote for him during the lynching, he will become depressed, reckless, and unconsciously kill any random person who voted for him. After realizing this, he will commit suicide because he will not be able to bear the unbearable pain."
+  RoleInfoFool:
+    - The fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.
+  NormalOnly:
+    - Ranked Only
+  ChaosOnly:
+    - Chaos Only
+  PlayerChoice:
+    - Player Choice
+  GameModeA:
+    - Game mode set to {0}
+  GameModeQ:
+    - "What game mode will the group be?\nCurrent: {0}"
+  ShowNone:
+    - Don't show any
+  ShowLiving:
+    - Show only living players
+  ShowAll:
+    - Show all players
+  ShowRolesEndA:
+    - 'Roles shown at end set to: {0}'
+  DayTimer:
+    - Set Day Timer
+  NightTimer:
+    - Set Night Timer
+  LynchTimer:
+    - Set Lynch Timer
+  RoleConfig:
+    - Role Configuration
+  Mechanics:
+    - Game Mechanics
+  GroupSettings:
+    - Group Settings
+  Timers:
+    - Game Timers
+  ShowRolesDeath:
+    - Show Roles on Death
+  ShowRolesDeathQ:
+    - "Show or Hide roles on death?\r\nCurrent: {0}"
+  ShowRolesDeathA:
+    - Roles will be {0} on death
+  ShowRolesEndQ:
+    - "How do you want roles to be shown at the end ?\r\nCurrent: {0}"
+  MaxExtend:
+    - Set Max Extend Time
+  MaxExtendQ:
+    - "Choose maximum number of seconds which can be added to joining timer by a single /extend command.\r\nDefault setting: {0}\r\nCurrent:{1}"
+  MaxExtendA:
+    - Maximum extending time set to {0} seconds
+  Mode:
+    - Change Game Mode
+  MuteOption:
+    - Mute Options
+  EndRoles:
+    - Show Roles At Game End
+  GenericDeathNoReveal:
+    - Everyone wakes up in the morning, and notices that {0} is not around... They check the house to find the remains of {0}.
+    - As the villagers gather as the sun rises, the find the remains of {0}, who died somehow last night...
+  RoleInfoJudge:
+    - '🧑‍⚖ You are the Judge. You have the authority to judge the villagers. During the night, you can select a player to judge. The trial will last for one day. When the next day begins, you can choose to either execute and kill the suspect or reveal their role to the village.'
+  JudgeDead:
+    - You were going to start judging {0}, but they died... You can start judging another player again the next night.
+  JudgeInfo:
+    - You have started to judge {0}. When the next day dawns, you can choose what you want to do as a result of the judgment.
+  Judge:
+    - Judge 🧑‍⚖
+  JudgeShotPublic:
+    - "Last night, the village magistrate began a trial against a player. After 1 day of trial, the judge chose to shoot the suspect to death. {0}'s resistance failed, and they became the target of the bullets.\n{1}."
+  JudgeRevealPublic:
+    - Last night, the judge of the village has started the trial against a player. After 1 day of trial, the judge decided to reveal the role of the suspect to everyone. Accordingly, {0}'s role is {1}!
+  JudgeReveal:
+    - '🗣 Reveal suspect!'
+  JudgeShoot:
+    - '🔫 Kill them!'
+  AskJudge:
+    - Who do you want to judge?
+  AskJudge2:
+    - What do you want to do about the suspect?
+  Doppelganger:
+    - Doppelgänger 🎭
+  HelpRoleList:
+    - "<b>Here are the roles of Wolf Blood:</b>\n\nWolf Blood has a total of {2} roles.\nThere are {0} classic roles and {1} wb special roles."
+  VG:
+    - Village Team 🧑‍🌾
+  Baddie:
+    - Wolf Team 🐺
+  Solo:
+    - Solo Team 👣
+  AboutVGTeam:
+    - "<b>Team Village</b>\n\nThe innocent townspeople who are working together to identify and eliminate the killers hiding among them. They must use their deductive reasoning and strategic thinking to figure out who the killers are before they become victims of their deadly attacks.\n\n<b>Rivals :</b> Werewolves , Serial Killer, Arsonist, Cultists"
+  AboutBaddieTeam:
+    - "<b>Team Werewolf</b>\n\nA group of villagers who got attacked by a pack of feral wolves on a magical night under the full moon, but miraculously escaped death. They experienced a strange transformation in their bodies, and from that moment on, they turned into werewolves at night, hunting unsuspecting villagers while pretending to be innocent members of the community during the day.\n\n<b>Rivals :</b> Serial Killer, Arsonist, Cultists"
+  AboutSoloTeam:
+    - "<b>Team Solo</b>\n\nThe individuals in the village who prefer to operate solo rather than being part of a team. Unlike the werewolves, they have the ability to eliminate players individually. Their objective is to be the sole survivor in the village, which would lead them to victory.\n\n<b>Solo villains :</b> Serial Killer, Arsonist"
+  RoleCommand:
+    - 'No such role was found. Search by adding role next to the command. Example usage: <code>/role villager</code>'
+  HowPlay: [ ]
+  HowToPlay: [ ]
+  WelcomeWB:
+    - "<b>Hello</b> {0}! 🐾 Welcome to the <b>Wolf Blood</b> family!\n\nGet ready for a mysterious tale filled with secrets on moonlit nights in this enigmatic village! Different game modes transcend the classic werewolf experience; each mode has its own excitement and strategy. New roles add an extra layer of excitement to the game.\n\nDiscover the new roles with the /rolelist command! Join the Wolf Blood family for thrilling adventures in our {1} group, or find gaming companions with the /grouplist command. If you need assistance, join the {2} channel. Don't forget to check out the {3} channel for updates!\n\n<b>Exciting games and adventurous moments await you! 🐾🐺</b> "
+  Kronos:
+    - Kronos ⏱
+  RoleInfoKronos:
+    - "<b>Kronos ⏱</b>\n\nKronos possesses complete control over time, acting as its master and manipulator. He has the ability to reveal himself at will, and when he does, the flow of time accelerates. As a result, night phase and lynching phase will be reduced to a mere 20 seconds. Kronos' power limits players' ability to think strategically and forces them to make snap decisions."
+  AskKronos:
+    - Do you want to reveal yourself today ?
+  KronosReveal:
+    - <b>The village is taken aback as a cryptic entity emerges!</b> Kronos {0}, the enigmatic being, has arrived and now holds sway over the village. In a twist of fate, Kronos has altered the laws of time, shortening the duration of night phase and lynching phase to a mere <b>20</b> seconds!
+  KronosLimitYou:
+    - Attention, a hidden power is awakening!  Kronos, the lord of time, appeared and changed the laws of time. Night and lynching phases are now only <b>20</b> seconds for you!  Hurry, because the shadow of Kronos will be upon you at all times.
+  KronosTimeUp:
+    - Kronos, the lord of time, stopped you from casting your vote.
+  Astronomer:
+    - Astronomer 🔭
+  RoleInfoAstronomer:
+    - "<b>Astronomer 🔭</b>\n\nAstronomer is a diligent scientist who observes sky at night from a vantage point atop a lofty hill, while monitoring the village below. Tasked with the responsibility of closely monitoring the stars and the actions of each villager, the Astronomer possesses the ability to determine what the villagers are doing during the dark hours of night. In the stillness of the night, the Astronomer surveys the sky around the village, taking note of the number of players who were awake at night. Once daytime arrives, he shares his observations with the village, informing them of any unusual activity that he has observed."
+  AstronomCount:
+    - After witnessing some remarkable actions, you determined that {0} people were awake last night in the village. Share this information with others, and continue unraveling the secrets of the celestial realm!
+  Executioner:
+    - Executioner 🦸‍♂️
+  RoleInfoExecutioner:
+    - "<b>Executioner 🦸‍♂️</b>\n\nThe Executioner takes charge of the lynching proceeding, showcasing his exceptional skills and challenging other villagers. Once the Executioner's true identity is revealed, he turns the tables by accusing someone in the village. Unexpectedly, the villagers are now required to cast their votes not in favor of themselves, but rather for the Executioner's chosen target. The accused individual becomes the target of the execution, and the villagers must decide whether to support the execution by voting \"Yes\" or \"No\"."
+  ExecutionerLynch:
+    - Executioner's menacing figure looms in the shadows, the air thick with foreboding. The skies darken ominously as the Executioner's arrival is announced. Today, the lynching vote for {0} will begin. Beware, for the Executioner's justice is swift and unforgiving.
+  ExecutionerLynchSuccess:
+    - '{0} voted {1} for the execution.'
+  AskExecutioner:
+    - Who do you want to accuse and start the execution for?
+  AskExecutionerLynch:
+    - The executioner has chosen {0} as the target. Your decision is important. Please take part in the voting and decide on {0}.
+  ExecutionerTie:
+    - Following the lynching vote, there was no clear majority. The villagers collectively chose not to execute the person selected by the executioner. It seems that they favored an alternative approach to justice. Let's wait and see what tomorrow holds for us.
+  PawnDeadWolf:
+    - "Tonight, the Pawn, known as {0}, made the ultimate sacrifice, willingly offering themselves in the ongoing battle against the werewolves. Their selfless act, a beacon of courage, leaves an indelible mark on the village. May the village find solace in the courage shown by {0}, the Pawn who became a legend in the heart of the werewolf night.\r\n{1}"
+  GroupLock:
+    - "🔒 To unlock this command, your group must meet the following requirements:\n\n<b>1. Your group must have a minimum of 70 members.</b>\n<b>2. The bot must have the necessary permissions in the group.</b>\n\nOnce these requirements are met, click the button below to request a review. Your group will be unlocked once approved. \n\nThank you and happy gaming! 🐾🐺"
+  GroupLockSend:
+    - "<b>Thank you! Your group is now in the review process.</b>\n\nYour request to unlock the command has been received. Our team will carefully review your group and permissions.\n\nPlease be patient, and we'll get back to you as soon as possible. Your group's unlock status will be communicated shortly."
+  GroupStatusWaiting:
+    - "<b>⏳ Your group review is currently pending.</b>\n\nOur team is diligently working to review your group and unlock the exciting features.\nPlease be patient, and we assure you that your group will be reviewed as quickly as possible.\nIf you have any urgent inquiries, feel free to contact @wolfbloodsupport.\n\nThank you for your understanding. The adventure awaits! 🐾🐺"
+  GroupStatusFail:
+    - "<b>😔 Unfortunately, your group review has not been successful.</b>\n\nAfter careful consideration, it seems that your group does not meet the necessary requirements for unlocking the command.\r\nIf you have any questions or would like more information, feel free to contact @wolfbloodsupport.\n\nThank you for your understanding. Continue enjoying the other exciting features of <b>Wolf Blood!</b> 🐾🐺"
+  GroupStatusSuccess:
+    - "<b>🎉 Congratulations! Your group review was successful!</b>\n\nYour group has met all the necessary requirements, and the locked commands are now unlocked for your enjoyment.\nFeel free to explore the newfound powers by using the previously locked commands.\n\nThank you for being a part of the <b>Wolf Blood</b> community. Continue your epic journey! 🐾🐺"
+  GroupLockButton:
+    - '📨 Send Request '
+  AlertPermission:
+    - "<b>🤖 Wolf Blood Bot - Permissions Alert</b>\n\nEnsure the following:\n\n<b>1. Add Users Permission:</b> For adding new members.\n<b>2. Delete Messages Permission:</b> To manage essential information.\n<b>3. Mute/Ban Users Permission:</b> Required for muting dead players.\n\nAdditionally, make sure your group has at least 70 members.\n\nAfter meeting these conditions, kindly resubmit your review request.\n\nThank you and happy gaming! 🐾🐺"
