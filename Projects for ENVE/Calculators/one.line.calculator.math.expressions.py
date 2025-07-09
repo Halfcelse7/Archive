@@ -1,0 +1,1 @@
+while 1:print(eval(__import__("re").sub(r"(\d+)!","factorial(\\1)",input(">>>")),{"__builtins__":0,"factorial":__import__("math").factorial,"sqrt":lambda x:(__import__("cmath") if x<0 else __import__("math")).sqrt(x),**vars(__import__("math")),**vars(__import__("cmath"))}))
