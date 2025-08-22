@@ -10,9 +10,9 @@ import json
 import time
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyAuoRu6zGWWmqOl1MaNO1ZlwTUgztULk48")
+genai.configure(api_key="YOUR_API_KEY_HERE")
 
-json_file_path = r"C:\Users\ismtu\OneDrive\Desktop\TelegramBot-main/Batıl/Tarot cards.json"
+json_file_path = "FILE_DIRECTORY_HERE"
 
 with open(json_file_path, "r", encoding="utf-8") as f:
     tarot_cards = json.load(f)
@@ -69,4 +69,5 @@ if __name__ == "__main__":
     print("\n--- Genel Yapay Zeka Yorumu ---\n")
     general_comment = get_ai_general_interpretation(user_name, chosen)
     print(general_comment)
+
     
